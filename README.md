@@ -5,11 +5,11 @@ Technologies that could be used: Emberjs, purecss, modulz.co
 
 ## Todo List
 - [ ] **Planning**
-  - [ ] Research into other hackathon designs
+  - [ x ] Research into other hackathon designs
   - [ ] Logo tweaking
   - [ ] Research into colours that fit with the logo
 - [ ] **Design**
-  - [ ] Sketch out some designs
+  - [ x ] Sketch out some designs
   - [ ] Test designs
   - [ ] Mock up greyscale design
   - [ ] Colour test the design
@@ -18,3 +18,4 @@ Technologies that could be used: Emberjs, purecss, modulz.co
   - [ ] Use emberjs features within design
 - [ ] **Testing**
   - [ ] Demo with rest of Exec
+
