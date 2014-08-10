@@ -4,18 +4,18 @@ Women In Tech website (name tbc)
 Technologies that could be used: Emberjs, purecss, modulz.co
 
 ## Todo List
-- [ ] **Planning**
+- [ x ] **Planning**
   - [ x ] Research into other hackathon designs
-  - [ ] Logo tweaking
-  - [ ] Research into colours that fit with the logo
-- [ ] **Design**
+  - [ x ] Logo tweaking
+  - [ x ] Research into colours that fit with the logo
+- [  ] **Design**
   - [ x ] Sketch out some designs
-  - [ ] Test designs
-  - [ ] Mock up greyscale design
-  - [ ] Colour test the design
+  - [ x ] Test designs
+  - [  ] Mock up greyscale design
+  - [ x ] Colour test the design
 - [ ] **Implemention**
-  - [ ] Implement without emberjs
-  - [ ] Use emberjs features within design
+  - [ x ] Implement site (almost done)
+  - [ ] Implment some d3 features into the header
 - [ ] **Testing**
   - [ ] Demo with rest of Exec
 
