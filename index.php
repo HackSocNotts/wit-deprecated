@@ -21,9 +21,12 @@
 
   <!-- Bootstrap Core CSS - Uses Bootswatch Flatly Theme: http://bootswatch.com/flatly/ -->
   <link href="libs/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="libs/owl-carousel2/dist/assets/owl.carousel.min.css" rel="stylesheet"/>
+  <link href="/libs/owl-carousel2/dist/assets/owl.theme.default.min.css" rel="stylesheet"/>
 
   <!-- Custom CSS -->
   <link href="css/style.css" rel="stylesheet">
+  <link href="css/bootswatch.css" rel="stylesheet">
 
   <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
   <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -37,6 +40,8 @@
 <body id="page-top" class="index">
 
   <?php include 'header.php';?>
+
+  <?php include 'carousel.php';?>
 
   <?php include 'nosponsors.php';?>
 
@@ -53,6 +58,7 @@
   <script src="libs/jquery/dist/jquery.min.js"></script>
   <!-- Bootstrap Core JavaScript -->
   <script src="libs/bootstrap/dist/js/bootstrap.min.js"></script>
+  <script src="libs/owl-carousel2/dist/owl.carousel.min.js"></script>
 
   <script src="js/app.js"></script>
 
