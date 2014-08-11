@@ -20,16 +20,10 @@
   <title>Women in tech</title>
 
   <!-- Bootstrap Core CSS - Uses Bootswatch Flatly Theme: http://bootswatch.com/flatly/ -->
-  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link href="libs/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
 
   <!-- Custom CSS -->
   <link href="css/style.css" rel="stylesheet">
-
-  <!-- Custom Fonts -->
-  <link href="font-awesome-4.1.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-  <!-- Some pretty fonts -->
-  <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
-  <link href="http://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
 
   <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
   <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -56,26 +50,11 @@
   <?php include 'footer.php';?>
 
   <!-- jQuery Version 1.11.0 -->
-  <script src="js/jquery-1.11.0.js"></script>
-
+  <script src="libs/jquery/dist/jquery.min.js"></script>
   <!-- Bootstrap Core JavaScript -->
-  <script src="js/bootstrap.min.js"></script>
+  <script src="libs/bootstrap/dist/js/bootstrap.min.js"></script>
 
-  <script type="text/javascript">
-    // Function to loop around and display different words every x seconds
-    var w = 0;
-    window.setInterval(function() {
-      var words = ["Students", "Women", "Men"];
-      $('.moving_text').fadeOut("slow", function () {
-        $('.moving_text').text(words[w++]);
-      });
-      $('.moving_text').fadeIn("slow");
-
-      if (w == words.length) {
-        w = 0;
-      }
-    }, 3000);
-  </script>
+  <script src="js/app.js"></script>
 
   <!-- Contact Form JavaScript -->
   <!-- <script src="js/jqBootstrapValidation.js"></script> -->

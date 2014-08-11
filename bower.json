@@ -1,0 +1,9 @@
+{
+  "name": "wit",
+  "version": "1.0.0",
+  "dependencies": {
+    "bootstrap": "*",
+    "angular": "*",
+    "owl-carousel2": "*"
+  }
+}
