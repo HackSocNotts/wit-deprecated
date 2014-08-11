@@ -28,11 +28,13 @@ body {
 header .btn-register {
   transition: color 0.1s ease,
               border 0.1s ease;
-
+}
+header .btn-register:hover {
+  color: white;
 }
 
 .carousel-item {
-  margin-top: 25px;
+  margin-top: 50px;
   background-color: #fff;
 }
 
@@ -51,13 +53,13 @@ header .btn-register {
 
 .carousel-nav {
   transition: color 1s ease;
-  color: rgba(0,0,0,0.5);
-/*  text-shadow: 0px 0px 5px rgba(0,0,0,0.5);*/
+  /* color: rgba(0,0,0,0.5); */
+  /* text-shadow: 0px 0px 5px rgba(0,0,0,0.5); */
   position: absolute;
-  margin-top: 10px;
-  margin-left: 20px;
+  margin-top: -10px;
+  margin-left: 30px;
   z-index: 2;
-  font-size: 60px;
+  font-size: 40px;
   cursor: pointer;
 }
 
@@ -76,6 +78,12 @@ section#carousel {
 .owl-dots {
   position: absolute;
   width: 100%;
+  /* put the dots at the top */
+  top: 10px;
+}
+.owl-dot {
+  /* Make the dots bigger */
+  zoom: 1.3;
 }
 
 .owl-theme .owl-dots .owl-dot span {

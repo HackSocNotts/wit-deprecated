@@ -12,6 +12,8 @@ window.setInterval(function() {
   }
 }, 3000);
 
+// Would be good if when you click on the card either side that you can see
+// it goes to the next one, so we can removed the arrows :)
 var owl = {};
 $(document).ready(function(){
   fit();
@@ -23,6 +25,9 @@ $(document).ready(function(){
     loop: true,
     margin: 70,
     dots: true,
+    autoplaySpeed: true,
+    autoplay: true,
+    animateOut: 'fadeOut', // Note, want a fade out, fade in, in autoplay
     onInitialized: fit,
     onResized: fit
   });
@@ -34,7 +39,6 @@ $(window).on('resize scroll', function(){
 });
 
 //responsive js
-var hide = true;
 var fit = function(){
   //lock right arrow in place
   $('.carousel-right').css('margin-left', $(window).width()-73);
@@ -78,9 +82,9 @@ $('.carousel-right').click(function(){
 });
 
 $(window).on('keydown', function(e){
-  if(e.which == 37){
+  if(e.which === 37){
     prev();
-  } else if(e.which == 39){
+  } else if(e.which === 39){
     next();
   }
 });

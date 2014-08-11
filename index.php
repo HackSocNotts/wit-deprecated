@@ -24,7 +24,7 @@
   <link href="libs/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
   <!-- Carousel -->
   <link href="libs/owl-carousel2/dist/assets/owl.carousel.min.css" rel="stylesheet"/>
-  <link href="/libs/owl-carousel2/dist/assets/owl.theme.default.min.css" rel="stylesheet"/>
+  <link href="libs/owl-carousel2/dist/assets/owl.theme.default.min.css" rel="stylesheet"/>
 
   <!-- Custom CSS -->
   <link href="css/harrysLessCompiled.css" rel="stylesheet">
@@ -47,15 +47,15 @@
 
   <?php include 'templates/carousel.php';?>
 
-  <?php include 'templates/nosponsors.php';?>
+  <?php include 'templates/register.php';?>
 
   <?php include 'templates/about.php';?>
 
-  <?php include 'templates/sponsors.php';?>
-
+  <?php include 'templates/nosponsors.php';?>
+<!--
+  php include 'templates/sponsors.php';
+-->
   <?php include 'templates/faq.php';?>
-
-  <?php include 'templates/register.php';?>
 
 
   <!-- Contact form, not yet used -->
