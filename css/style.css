@@ -31,10 +31,6 @@ header .btn-register {
 
 }
 
-header .btn-register:hover {
-  color: #ffed00;
-}
-
 .carousel-item {
   margin-top: 25px;
   background-color: #fff;

@@ -12,26 +12,26 @@ window.setInterval(function() {
   }
 }, 3000);
 
-var owl = {}
+var owl = {};
 $(document).ready(function(){
-  fit()
+  fit();
   //init carousel
   owl = $(".owl-carousel");
   owl.owlCarousel({
     center: true,
-    items:1.5,
-    loop:false,
-    margin:70,
+    items: 2,
+    loop: true,
+    margin: 70,
     dots: true,
     onInitialized: fit,
     onResized: fit
   });
   $('a').smoothScroll({offset: -50, speed:'auto', autoCoefficient:3});
-})
+});
 
 $(window).on('resize scroll', function(){
   fit();
-})
+});
 
 //responsive js
 var hide = true;
@@ -53,8 +53,8 @@ var fit = function(){
 };
 
 //fn that sets the location of the carousel nav elements
-var owlNav = function(offset){
-  var offset = offset == undefined ? 0 : offset;
+var owlNav = function(o){
+  var offset = o === undefined ? 0 : offset;
   $('.carousel-nav').css('margin-top', 10-offset);
   $('.owl-dots').css('margin-top', -$('.owl-stage-outer').height()-7-offset);
 };
@@ -71,7 +71,7 @@ var prev = function(){
 //onclick and arrow keypress
 $('.carousel-left').click(function(){
   prev();
-})
+});
 
 $('.carousel-right').click(function(){
   next();
@@ -79,8 +79,8 @@ $('.carousel-right').click(function(){
 
 $(window).on('keydown', function(e){
   if(e.which == 37){
-    prev()
+    prev();
   } else if(e.which == 39){
-    next()
+    next();
   }
-})
+});

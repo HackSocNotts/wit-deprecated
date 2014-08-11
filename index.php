@@ -65,8 +65,10 @@
 
   <!-- jQuery Version 1.11.0 -->
   <script src="libs/jquery/dist/jquery.min.js"></script>
+
   <!-- Bootstrap Core JavaScript -->
   <script src="libs/bootstrap/dist/js/bootstrap.min.js"></script>
+
   <!-- Carousel js -->
   <script src="libs/owl-carousel2/dist/owl.carousel.min.js"></script>
   <script src="libs/jquery.smooth-scroll/jquery.smooth-scroll.min.js"></script>

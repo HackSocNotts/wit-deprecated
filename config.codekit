@@ -4674,7 +4674,7 @@
 		"outputAbbreviatedPath": "\/img\/bg_back.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/bg_back_.jpg": {
 		"fileType": 16384,
@@ -4685,7 +4685,7 @@
 		"outputAbbreviatedPath": "\/img\/bg_back_.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/bg_back_dark.jpg": {
 		"fileType": 16384,
@@ -4696,7 +4696,7 @@
 		"outputAbbreviatedPath": "\/img\/bg_back_dark.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/favicon-base.png": {
 		"fileType": 32768,
@@ -4707,7 +4707,7 @@
 		"outputAbbreviatedPath": "\/img\/favicon-base.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/logo-heading.png": {
 		"fileType": 32768,
@@ -4718,7 +4718,7 @@
 		"outputAbbreviatedPath": "\/img\/logo-heading.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/logo-or.png": {
 		"fileType": 32768,
@@ -4729,7 +4729,7 @@
 		"outputAbbreviatedPath": "\/img\/logo-or.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/logo.png": {
 		"fileType": 32768,
@@ -4740,7 +4740,7 @@
 		"outputAbbreviatedPath": "\/img\/logo.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/profile-old.png": {
 		"fileType": 32768,
@@ -4751,7 +4751,7 @@
 		"outputAbbreviatedPath": "\/img\/profile-old.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/social_facebook.png": {
 		"fileType": 32768,
@@ -4762,7 +4762,7 @@
 		"outputAbbreviatedPath": "\/img\/social_facebook.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/social_instagram.png": {
 		"fileType": 32768,
@@ -4773,7 +4773,7 @@
 		"outputAbbreviatedPath": "\/img\/social_instagram.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/social_tumblr.png": {
 		"fileType": 32768,
@@ -4784,7 +4784,7 @@
 		"outputAbbreviatedPath": "\/img\/social_tumblr.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/social_twitter.png": {
 		"fileType": 32768,
@@ -4795,7 +4795,7 @@
 		"outputAbbreviatedPath": "\/img\/social_twitter.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/sponsors\/cabin.png": {
 		"fileType": 32768,
@@ -4806,7 +4806,7 @@
 		"outputAbbreviatedPath": "\/img\/sponsors\/cabin.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/sponsors\/cake.png": {
 		"fileType": 32768,
@@ -4817,7 +4817,7 @@
 		"outputAbbreviatedPath": "\/img\/sponsors\/cake.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/sponsors\/circus.png": {
 		"fileType": 32768,
@@ -4828,7 +4828,7 @@
 		"outputAbbreviatedPath": "\/img\/sponsors\/circus.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/sponsors\/game.png": {
 		"fileType": 32768,
@@ -4839,7 +4839,7 @@
 		"outputAbbreviatedPath": "\/img\/sponsors\/game.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/sponsors\/placeholder.png": {
 		"fileType": 32768,
@@ -4850,7 +4850,7 @@
 		"outputAbbreviatedPath": "\/img\/sponsors\/placeholder.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/sponsors\/safe.png": {
 		"fileType": 32768,
@@ -4861,7 +4861,7 @@
 		"outputAbbreviatedPath": "\/img\/sponsors\/safe.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/sponsors\/submarine.png": {
 		"fileType": 32768,
@@ -4872,7 +4872,7 @@
 		"outputAbbreviatedPath": "\/img\/sponsors\/submarine.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/index.php": {
 		"fileType": 8192,
@@ -4885,19 +4885,19 @@
 		},
 	"\/js\/app.js": {
 		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
+		"ignore": 1,
+		"ignoreWasSetByUser": 1,
 		"inputAbbreviatedPath": "\/js\/app.js",
 		"outputAbbreviatedPath": "\/js\/min\/app-ck.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
+		"outputStyle": 0,
 		"syntaxCheckerStyle": 1
 		},
 	"\/js\/contact_me.js": {
 		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
+		"ignore": 1,
+		"ignoreWasSetByUser": 1,
 		"inputAbbreviatedPath": "\/js\/contact_me.js",
 		"outputAbbreviatedPath": "\/js\/min\/contact_me-ck.js",
 		"outputPathIsOutsideProject": 0,
@@ -4907,8 +4907,8 @@
 		},
 	"\/js\/jqBootstrapValidation.js": {
 		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
+		"ignore": 1,
+		"ignoreWasSetByUser": 1,
 		"inputAbbreviatedPath": "\/js\/jqBootstrapValidation.js",
 		"outputAbbreviatedPath": "\/js\/min\/jqBootstrapValidation-ck.js",
 		"outputPathIsOutsideProject": 0,
@@ -4918,8 +4918,8 @@
 		},
 	"\/js\/style.js": {
 		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
+		"ignore": 1,
+		"ignoreWasSetByUser": 1,
 		"inputAbbreviatedPath": "\/js\/style.js",
 		"outputAbbreviatedPath": "\/js\/min\/style-ck.js",
 		"outputPathIsOutsideProject": 0,
