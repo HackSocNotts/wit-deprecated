@@ -26,8 +26,8 @@ body {
 }
 
 header .btn-register {
-  transition: color 0.3s ease,
-              border 0.3s ease;
+  transition: color 0.1s ease,
+              border 0.1s ease;
 
 }
 
