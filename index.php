@@ -27,7 +27,7 @@
   <link href="/libs/owl-carousel2/dist/assets/owl.theme.default.min.css" rel="stylesheet"/>
 
   <!-- Custom CSS -->
-  <link href="css/bootswatch.css" rel="stylesheet">
+  <link href="css/harrysLessCompiled.css" rel="stylesheet">
   <link href="css/style.css" rel="stylesheet">
 
   <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
