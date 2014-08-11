@@ -21,7 +21,7 @@
           <span class="tag">11</span>/
           <span class="tag">2014</span>
         </div>
-        <button class="btn btn-register">+ Register</button>
+        <a class="btn btn-register" href="#register">+ Register</a>
       </div>
     </div>
   </div>

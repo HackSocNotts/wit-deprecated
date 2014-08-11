@@ -52,6 +52,11 @@
 
   <?php include 'sponsors.php';?>
 
+  <?php include 'faq.php';?>
+
+  <?php include 'register.php';?>
+
+
   <!-- Contact form, not yet used -->
   <!-- include 'contact.php'; -->
 
@@ -62,6 +67,7 @@
   <!-- Bootstrap Core JavaScript -->
   <script src="libs/bootstrap/dist/js/bootstrap.min.js"></script>
   <script src="libs/owl-carousel2/dist/owl.carousel.min.js"></script>
+  <script src="libs/jquery.smooth-scroll/jquery.smooth-scroll.min.js"></script>
 
   <script src="js/app.js"></script>
 

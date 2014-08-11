@@ -7,13 +7,13 @@ window.setInterval(function() {
   });
   $('.moving_text').fadeIn("slow");
 
-  if (w == words.length) {
+  if (w >= words.length) {
     w = 0;
   }
 }, 3000);
 
 var owl = {}
-$(window).load(function(){
+$(document).ready(function(){
   fit()
   //init carousel
   owl = $(".owl-carousel");
@@ -26,6 +26,7 @@ $(window).load(function(){
     onInitialized: fit,
     onResized: fit
   });
+  $('a').smoothScroll({offset: -50, speed:'auto', autoCoefficient:3});
 })
 
 $(window).on('resize scroll', function(){

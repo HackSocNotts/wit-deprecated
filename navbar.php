@@ -7,7 +7,7 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a href="/"><img src="img/logo.png" class="logo img-responsive"></a>
+      <a href="#page-top"><img src="img/logo.png" class="logo img-responsive"></a>
     </div>
 
     <div class="collapse navbar-collapse" id="navbar-collapse">
@@ -16,13 +16,13 @@
           <a href="#page-top"></a>
         </li>
         <li>
-          <a class="page-scroll" href="tickets">Tickets</a>
+          <a class="page-scroll" href="#tickets">Tickets</a>
         </li>
         <li>
-          <a class="page-scroll" href="info">Info</a>
+          <a class="page-scroll" href="#info">Info</a>
         </li>
         <li>
-          <a class="page-scroll" href="contact">Contact</a>
+          <a class="page-scroll" href="#contact">Contact</a>
         </li>
       </ul>
     </div>

@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "dependencies": {
     "bootstrap": "*",
-    "angular": "*",
-    "owl-carousel2": "*"
+    "owl-carousel2": "*",
+    "jquery.smooth-scroll": "*"
   }
 }

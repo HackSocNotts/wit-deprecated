@@ -11,9 +11,6 @@ body {
   transition: margin-top 0.5s ease;
 }
 
-/*nav.hide {
-  margin-top: -50px;
-}*/
 
 .navbar-inverse .navbar-nav > li > a {
   transition: color 0.3s ease;
@@ -21,11 +18,21 @@ body {
 }
 
 .navbar-inverse .navbar-nav > li > a:hover {
-  color: #fed136;
+  color: #ffed00;
 }
 
 .logo {
   max-height: 50px;
+}
+
+header .btn-register {
+  transition: color 0.3s ease,
+              border 0.3s ease;
+
+}
+
+header .btn-register:hover {
+  color: #ffed00;
 }
 
 .carousel-item {
@@ -62,7 +69,7 @@ body {
   color: rgba(0,0,0,0.8);
 }
 
-section.success {
+section#carousel {
   padding-top: 10px;
 }
 
