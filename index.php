@@ -16,6 +16,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="Women in Tech conference">
   <meta name="author" content="HackSoc Nottingham">
+  <link rel="shortcut icon" sizes="64x64" href="favicon.ico">
 
   <title>Women in tech</title>
 
@@ -25,8 +26,8 @@
   <link href="/libs/owl-carousel2/dist/assets/owl.theme.default.min.css" rel="stylesheet"/>
 
   <!-- Custom CSS -->
-  <link href="css/style.css" rel="stylesheet">
   <link href="css/bootswatch.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
 
   <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
   <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -38,6 +39,8 @@
 </head>
 
 <body id="page-top" class="index">
+
+  <?php include 'navbar.php';?>
 
   <?php include 'header.php';?>
 

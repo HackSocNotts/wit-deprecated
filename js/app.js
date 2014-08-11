@@ -33,12 +33,13 @@ $(window).on('resize scroll', function(){
 })
 
 //responsive js
+var hide = true;
 var fit = function(){
   //lock right arrow in place
   $('.carousel-right').css('margin-left', $(window).width()-73);
 
   //scroll pinning that stays in the 'stage'
-  var scrollOffset = $('header').height()-$(window)[0].scrollY-30;
+  var scrollOffset = $('header').height()-$(window)[0].scrollY-50;
   var stage = $('.owl-stage-outer').height();
   if(-stage<scrollOffset && scrollOffset<0){
     owlNav(scrollOffset);
@@ -47,6 +48,7 @@ var fit = function(){
   } else {
     owlNav(0);
   }
+  $('nav').css('margin-top', (scrollOffset<120 ? 0 : -50));
 };
 
 //fn that sets the location of the carousel nav elements

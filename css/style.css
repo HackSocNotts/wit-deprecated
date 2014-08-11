@@ -5,6 +5,29 @@ body {
   font-family: "Roboto Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
+.navbar-fixed-top {
+  padding: 0px;
+  height: 50px;
+  transition: margin-top 0.5s ease;
+}
+
+/*nav.hide {
+  margin-top: -50px;
+}*/
+
+.navbar-inverse .navbar-nav > li > a {
+  transition: color 0.3s ease;
+  color: #fff;
+}
+
+.navbar-inverse .navbar-nav > li > a:hover {
+  color: #fed136;
+}
+
+.logo {
+  max-height: 50px;
+}
+
 .carousel-item {
   margin-top: 25px;
   background-color: #fff;
@@ -24,6 +47,7 @@ body {
 }
 
 .carousel-nav {
+  transition: color 1s ease;
   color: rgba(0,0,0,0.5);
 /*  text-shadow: 0px 0px 5px rgba(0,0,0,0.5);*/
   position: absolute;

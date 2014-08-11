@@ -17,8 +17,8 @@
           <div class="location-tag"><span class="tag">University of Nottingham</span></div>
         </div>
         <div class="intro-tags">
-          <span class="tag">15</span>
-          <span class="tag">11</span>
+          <span class="tag">15</span>/
+          <span class="tag">11</span>/
           <span class="tag">2014</span>
         </div>
         <button class="btn btn-register">+ Register</button>
