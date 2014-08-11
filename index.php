@@ -22,6 +22,7 @@
 
   <!-- Bootstrap Core CSS - Uses Bootswatch Flatly Theme: http://bootswatch.com/flatly/ -->
   <link href="libs/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Carousel -->
   <link href="libs/owl-carousel2/dist/assets/owl.carousel.min.css" rel="stylesheet"/>
   <link href="/libs/owl-carousel2/dist/assets/owl.theme.default.min.css" rel="stylesheet"/>
 
@@ -40,35 +41,37 @@
 
 <body id="page-top" class="index">
 
-  <?php include 'navbar.php';?>
+  <?php include 'templates/navbar.php';?>
 
-  <?php include 'header.php';?>
+  <?php include 'templates/header.php';?>
 
-  <?php include 'carousel.php';?>
+  <?php include 'templates/carousel.php';?>
 
-  <?php include 'nosponsors.php';?>
+  <?php include 'templates/nosponsors.php';?>
 
-  <?php include 'about.php';?>
+  <?php include 'templates/about.php';?>
 
-  <?php include 'sponsors.php';?>
+  <?php include 'templates/sponsors.php';?>
 
-  <?php include 'faq.php';?>
+  <?php include 'templates/faq.php';?>
 
-  <?php include 'register.php';?>
+  <?php include 'templates/register.php';?>
 
 
   <!-- Contact form, not yet used -->
-  <!-- include 'contact.php'; -->
+  <!-- include 'templates/contact.php'; -->
 
-  <?php include 'footer.php';?>
+  <?php include 'templates/footer.php';?>
 
   <!-- jQuery Version 1.11.0 -->
   <script src="libs/jquery/dist/jquery.min.js"></script>
   <!-- Bootstrap Core JavaScript -->
   <script src="libs/bootstrap/dist/js/bootstrap.min.js"></script>
+  <!-- Carousel js -->
   <script src="libs/owl-carousel2/dist/owl.carousel.min.js"></script>
   <script src="libs/jquery.smooth-scroll/jquery.smooth-scroll.min.js"></script>
 
+  <!-- All main js -->
   <script src="js/app.js"></script>
 
   <!-- Contact Form JavaScript -->
