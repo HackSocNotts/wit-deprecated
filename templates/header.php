@@ -10,7 +10,7 @@
         <img class="img-responsive img-logo-heading" src="img/logo-heading.png" alt="">
         <div class="intro">
           <div class="intro-strapline">
-            Lorem ipsum dolor adipisicing sit amet, consectetur adipisig.
+            Women inspiring women
           </div>
           <div class="intro-text">a conference for <span class="moving_text">Women</span></div>
           <!-- <img class="img-responsive img-logo" src="img/logo.png" alt=""> -->
