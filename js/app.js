@@ -1,7 +1,9 @@
 // Function to loop around and display different words every x seconds
 var w = 0;
 window.setInterval(function() {
+  // Paula edit these words
   var words = ["Students", "Women", "Men"];
+
   $('.moving_text').fadeOut("slow", function () {
     $('.moving_text').text(words[w++]);
   });
@@ -12,31 +14,12 @@ window.setInterval(function() {
   }
 }, 3000);
 
-// Would be good if when you click on the card either side that you can see
-// it goes to the next one, so we can removed the arrows :)
-var owl = {};
-$(document).ready(function(){
-  fit();
-  //init carousel
-  owl = $(".owl-carousel");
-  owl.owlCarousel({
-    center: true,
-    items: 2,
-    loop: true,
-    margin: 70,
-    dots: true,
-    autoplaySpeed: true,
-    autoplay: true,
-    animateOut: 'fadeOut', // Note, want a fade out, fade in, in autoplay
-    onInitialized: fit,
-    onResized: fit
-  });
-  // $('a').smoothScroll({offset: -50, speed:'auto', autoCoefficient:3});
-});
-
-$(window).on('resize scroll', function(){
-  fit();
-});
+//fn that sets the location of the carousel nav elements
+var owlNav = function(o){
+  var offset = o === undefined ? 0 : offset;
+  $('.carousel-nav').css('margin-top', 10-offset);
+  $('.owl-dots').css('margin-top', -$('.owl-stage-outer').height()-7-offset);
+};
 
 //responsive js
 var fit = function(){
@@ -56,12 +39,35 @@ var fit = function(){
   $('nav').css('margin-top', (scrollOffset<120 ? 0 : -50));
 };
 
-//fn that sets the location of the carousel nav elements
-var owlNav = function(o){
-  var offset = o === undefined ? 0 : offset;
-  $('.carousel-nav').css('margin-top', 10-offset);
-  $('.owl-dots').css('margin-top', -$('.owl-stage-outer').height()-7-offset);
-};
+
+// Would be good if when you click on the card either side that you can see
+// it goes to the next one, so we can removed the arrows :)
+var owl = {};
+$(document).ready(function(){
+  fit();
+  //init carousel
+  owl = $(".owl-carousel");
+  owl.owlCarousel({
+    center: true,
+    items: 2,
+    loop: true,
+    margin: 50,
+    dots: true,
+    autoplaySpeed: true,
+    autoplay: true,
+    animateOut: 'fadeOut', // Note, want a fade out, fade in, in autoplay
+    onInitialized: fit,
+    onResized: fit,
+    itemsDesktop : [1199,3],
+    itemsDesktopSmall : [979,3]
+  });
+  // $('a').smoothScroll({offset: -50, speed:'auto', autoCoefficient:3});
+});
+
+$(window).on('resize scroll', function(){
+  fit();
+});
+
 
 //carousel control
 var next = function(){

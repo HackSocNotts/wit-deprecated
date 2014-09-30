@@ -16,10 +16,10 @@
           <a href="#page-top"></a>
         </li>
         <li>
-          <a class="page-scroll" href="#tickets">Tickets</a>
+          <a class="page-scroll" href="#register">Register</a>
         </li>
         <li>
-          <a class="page-scroll" href="#info">Info</a>
+          <a class="page-scroll" href="#faq">Faq</a>
         </li>
         <li>
           <a class="page-scroll" href="#contact">Contact</a>

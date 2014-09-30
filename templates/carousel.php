@@ -1,10 +1,12 @@
 <section class="success" id="carousel">
-  <div class="row">
+  <div class="container">
+    <div class="row">
       <div class="col-lg-12 text-center">
-        <h2>Speakers</h2>
+        <h2 class="speakers-text">Speakers</h2>
         <hr class="star-light">
       </div>
     </div>
+  </div>
   <div class="carousel-nav carousel-left"><i class="fa fa-chevron-circle-left"></i></div>
   <div class="carousel-nav carousel-right"><i class="fa fa-chevron-circle-right"></i></div>
   <div class="owl-carousel">

@@ -59,7 +59,7 @@
 
 
   <!-- Contact form, not yet used -->
-  <!-- include 'templates/contact.php'; -->
+  <?php include 'templates/contact.php'; ?>
 
   <?php include 'templates/footer.php';?>
 
@@ -68,6 +68,9 @@
 
   <!-- Bootstrap Core JavaScript -->
   <script src="js/bootstrap.min.js"></script>
+
+  <!-- jquery smooth link moving -->
+  <script src="js/jquery-smoothscroll.min.js"></script>
 
   <!-- Carousel js -->
   <script src="js/owl-carousel.min.js"></script>

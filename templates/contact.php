@@ -4,7 +4,7 @@
   <div class="container">
     <div class="row">
       <div class="col-lg-12 text-center">
-        <h2>Contact Me</h2>
+        <h2>Questions</h2>
         <hr class="star-primary">
       </div>
     </div>
@@ -45,7 +45,7 @@
           <div id="success"></div>
           <div class="row">
             <div class="form-group col-xs-12">
-              <button type="submit" class="btn btn-success btn-lg">Send</button>
+              <button type="submit" class="btn btn-success btn-lg send-btn">Send</button>
             </div>
           </div>
         </form>

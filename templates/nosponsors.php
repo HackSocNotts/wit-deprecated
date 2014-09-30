@@ -10,7 +10,7 @@
     </div>
     <div class="text-center">
         <h3>Become part of our team</h3></br>
-        <p>If you're interested in becoming a sponsor, contact us <a href="mailto:prclerkin@gmail.com">here</a>.</p>
+        <p>If you're interested in becoming a sponsor, contact us <a class="email-text" href="mailto:prclerkin@gmail.com">here</a>.</p>
     </div>
   </div>
 </section>
