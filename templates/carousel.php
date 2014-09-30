@@ -16,8 +16,8 @@
         <img src="http://missgeeky.com/wp-content/uploads/2008/05/9328053257_7677236d07_z.jpg">
       </a>
       <div class="carousel-detail">
-         <h5 class="text-muted text-center">Developer, blogger and event organiser</h5>
-        <p>Melinda or Miss Geeky is a big name in the London tech community. She's CS graduate and a current developer at FutureLearn. You're most likely to meet her at a tech meet up and you've probably read her <a href="https://twitter.com/mseckington">blog</a>. </p>
+         <h5 class="text-muted text-center">Developer, event organiser and blogger.</h5>
+        <p>Melinda Seckington is a developer at FutureLearn, a social learning platform, backed by the Open University, offering free courses from a wide range of university partners and cultural institutions. She loves attending and hacking at Hackdays, BarCamps and other tech meet ups, and since 2009 has been organising them at Geeks of London, including HACKED at the O2 last year. She also runs MissGeeky.com, a <a href="https://twitter.com/mseckington">blog</a> about all things geeky and girly. </p>
       </div>
     </div>
     <div class="carousel-item">
@@ -40,8 +40,8 @@
         <img src="http://i.ytimg.com/vi/DHubfS8E--o/maxresdefault.jpg" >
       </a>
       <div class="carousel-detail">
-        <h5 class="text-muted text-center">Developer, conference speaker and organiser</h5>
-        <p>Bodil is known for her conference organising in the UK and Scandinava as well as her <a href="https://twitter.com/bodil">public speaking</a> about functional programming and web technologies. Bodil is a developer for Future Ad Labs in London and she contributes to the free software community and developing her own programming languages.  </p>
+        <h5 class="text-muted text-center">Developer, speaker and organiser</h5>
+        <p>Bodil is a a bishop of the Greater London diocese of the Church of Emacs, and a compulsive conference speaker in the fields of functional programming and internets technologies, and is a co-organiser of multiple developer conferences in Scandinavia and the UK, mostly because she’s still learning how to stop. In her spare time, she works as a developer for Future Ad Labs, a London based startup that wants to make advertising a productive member of society. Her favourite pony is Pinkie Pie. Find her on <a href="https://twitter.com/bodil">Twitter</a>.</p>
       </div>
     </div>
     <div class="carousel-item">
