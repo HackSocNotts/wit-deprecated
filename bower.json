@@ -1,9 +1,0 @@
-{
-  "name": "wit",
-  "version": "1.0.0",
-  "dependencies": {
-    "bootstrap": "*",
-    "owl-carousel2": "*",
-    "jquery.smooth-scroll": "*"
-  }
-}
