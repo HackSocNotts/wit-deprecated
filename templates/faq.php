@@ -11,33 +11,35 @@
 
     <div class="row">
       <div class="col-md-4 col-sm-6 col-xs-12">
-        <p class="highlight"><strong>How should I structure a question?</strong></p>
-        <p class="text-muted">Try to keep questions to one line only, short and sweet. Use sentence case only. Don't forget the question mark.</p>
+        <p class="highlight"><strong>What is Women In Tech about?</strong></p>
+        <p class="text-muted">Women In Tech is a day to learn about the women currently working in the technology industry. It's aimed at students of any age, from any background who have an interest in technology as a career or as a hobby.</p>
       </div>
 
       <div class="col-md-4 col-sm-6 col-xs-12">
-        <p class="highlight"><strong>How should I structure an answer?</strong></p>
-        <p class="text-muted">Briefly. Begin with a one or two word answer. Then follow up with more details. Try not to exceed four lines.</p>
+        <p class="highlight"><strong>Where is the Women In Tech day held?</strong></p>
+        <p class="text-muted">It will be held at the University of Nottingham's Jubilee Campus. It will be based in the Business School South building and the School of Computer science. </p>
       </div>
 
       <div class="col-md-4 col-sm-6 col-xs-12">
-        <p class="highlight"><strong>How many questions should I offer?</strong></p>
-        <p class="text-muted">The minimum amount you need in order to get the job done sufficiently. Keep an equal amount in each row.</p>
+        <p class="highlight"><strong>What does the day include?</strong></p>
+        <p class="text-muted">In the morning we have a number of inspirational talks from notable women. After lunch we will have a series of workshops and a tradefair-style opportunity for networking.</p></br></br></br></br></br>
       </div>
+
       <div class="col-md-4 col-sm-6 col-xs-12">
-        <p class="highlight"><strong>What is a mind-blowing fact?</strong></p>
-        <p class="text-muted">If you shuffle a deck of cards, the resulting deck has probably never been seen before in the history of the world.</p>
+        <p class="highlight"><strong>What workshops can I take part in?</strong></p>
+        <p class="text-muted">TBC!</p>
+      </div>
+
+      <div class="col-md-4 col-sm-6 col-xs-12">
+        <p class="highlight"><strong>Which companies will be there?</strong></p>
+        <p class="text-muted">More info soon!</p>
+      </div>
+
+      <div class="col-md-4 col-sm-6 col-xs-12">
+        <p class="highlight"><strong>Do we get food and drinks?</strong></p>
+        <p class="text-muted">We will provide a continental breakfast at registration, refreshments throughout the day and lunch.</p>
       </div>  
 
-      <div class="col-md-4 col-sm-6 col-xs-12">
-        <p class="highlight"><strong>How long ago did dinosaurs live?</strong></p>
-        <p class="text-muted">The time difference between Stegosaurus and T-Rrex is greater than the time difference between Tyrannosaurus and now.</p>
-      </div>
-
-      <div class="col-md-4 col-sm-6 col-xs-12">
-        <p class="highlight"><strong>What is an interesting but useless fact?</strong></p>
-        <p class="text-muted">In English grammar, the dots above the lowercase letters "i" and "j" is known as a "tittle".</p>
-      </div>
     </div> <!-- Close grid -->
 
   </div> <!-- Close container -->
