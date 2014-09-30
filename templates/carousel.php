@@ -13,7 +13,7 @@
         <h3>Melinda Seckington</h3>
       </div>
       <a class="carousel-link">
-        <img src="http://missgeeky.com/wp-content/uploads/2008/05/9328053257_7677236d07_z.jpg">
+        <img src="img/geeky.jpg">
       </a>
       <div class="carousel-detail">
          <h5 class="text-muted text-center">Developer, event organiser and blogger.</h5>
@@ -25,7 +25,7 @@
         <h3>Marily Nika</h3>
       </div>
       <a class="carousel-link">
-        <img src="http://www.marily.me/images/Marily_Nika_TEDx.jpg" >
+        <img src="img/marily.jpg">
       </a>
       <div class="carousel-detail">
         <h5 class="text-muted text-center">PhD student, co-ambassador of London Geekettes and gamer</h5>
@@ -37,7 +37,7 @@
         <h3>Bodil Stokke</h3>
       </div>
       <a class="carousel-link">
-        <img src="http://i.ytimg.com/vi/DHubfS8E--o/maxresdefault.jpg" >
+        <img src="img/bodil.jpg">
       </a>
       <div class="carousel-detail">
         <h5 class="text-muted text-center">Developer, speaker and organiser</h5>
@@ -49,7 +49,7 @@
         <h3>Astrid Bin</h3>
       </div>
       <a class="carousel-link">
-        <img src="http://www.astridbin.com/wp-content/uploads/2013/07/astridgallery-e1373124999265.jpg" >
+        <img src="img/astrid.jpg">
       </a>
       <div class="carousel-detail">
         <h5 class="text-muted text-center">Artist, designer and PhD student</h5>
@@ -61,7 +61,7 @@
         <h3>Lisa Lang</h3>
       </div>
       <a class="carousel-link">
-        <img src="http://static.squarespace.com/static/516d36bbe4b06cb596ba96bf/t/52ed27fee4b0a3f740d726f1/1391510250450/Screen%20Shot%202014-02-01%20at%205.59.04%20PM.png?format=500w" >
+        <img src="img/lisa.png">
       </a>
       <div class="carousel-detail">
         <h5 class="text-muted text-center">European Marketing Strategy at Twilio, Geekette and consultant</h5>
