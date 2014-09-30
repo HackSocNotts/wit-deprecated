@@ -1,10 +1,8 @@
 
-Women In Tech website.
-Date TBC
+## Women In Tech website. ##
 
-## Todo List
-- [ ] **Implemention**
-  - [x] Implement site (almost done) ~ see issues
-  - [ ] Implment some d3 features into the header
-- [ ] **Testing**
-  - [ ] Demo with rest of Exec
+Site is currently hosted at www.harrymt.com/wit for testing.
+
+But this will not be the final hosting place.
+
+

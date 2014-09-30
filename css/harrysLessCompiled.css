@@ -200,7 +200,7 @@ header .btn:hover {
   border: none;
 }
 section {
-  padding: 100px 0;
+  padding: 60px 0;
 }
 section h2 {
   margin: 0;
@@ -270,7 +270,6 @@ section.success {
   color: white;
   font-size: 20px;
   border: solid 2px white;
-  background: transparent;
   transition: all 0.3s ease-in-out;
   margin-top: 15px;
 }

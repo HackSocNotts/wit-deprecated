@@ -31,7 +31,7 @@ $(document).ready(function(){
     onInitialized: fit,
     onResized: fit
   });
-  $('a').smoothScroll({offset: -50, speed:'auto', autoCoefficient:3});
+  // $('a').smoothScroll({offset: -50, speed:'auto', autoCoefficient:3});
 });
 
 $(window).on('resize scroll', function(){

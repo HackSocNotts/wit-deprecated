@@ -18,13 +18,13 @@
   <meta name="author" content="HackSoc Nottingham">
   <link rel="shortcut icon" sizes="64x64" href="favicon.ico">
 
-  <title>Women in tech</title>
+  <title>Women in Tech</title>
 
   <!-- Bootstrap Core CSS - Uses Bootswatch Flatly Theme: http://bootswatch.com/flatly/ -->
-  <link href="libs/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/bootstrap.css" rel="stylesheet">
   <!-- Carousel -->
-  <link href="libs/owl-carousel2/dist/assets/owl.carousel.min.css" rel="stylesheet"/>
-  <link href="libs/owl-carousel2/dist/assets/owl.theme.default.min.css" rel="stylesheet"/>
+  <link href="css/owl-carousel.css" rel="stylesheet"/>
+  <link href="css/owl-carousel-theme.css" rel="stylesheet"/>
 
   <!-- Custom CSS -->
   <link href="css/harrysLessCompiled.css" rel="stylesheet">
@@ -63,15 +63,14 @@
 
   <?php include 'templates/footer.php';?>
 
-  <!-- jQuery Version 1.11.0 -->
-  <script src="libs/jquery/dist/jquery.min.js"></script>
+  <!-- jQuery Version 1.11.1 -->
+  <script src="js/jquery-1.11.1.min.js"></script>
 
   <!-- Bootstrap Core JavaScript -->
-  <script src="libs/bootstrap/dist/js/bootstrap.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
 
   <!-- Carousel js -->
-  <script src="libs/owl-carousel2/dist/owl.carousel.min.js"></script>
-  <script src="libs/jquery.smooth-scroll/jquery.smooth-scroll.min.js"></script>
+  <script src="js/owl-carousel.min.js"></script>
 
   <!-- All main js -->
   <script src="js/app.js"></script>
