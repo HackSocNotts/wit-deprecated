@@ -18,8 +18,8 @@
         <img src="img/geeky.jpg">
       </a>
       <div class="carousel-detail">
-         <h5 class="text-muted text-center">Developer, event organiser and blogger.</h5>
-        <p>Melinda Seckington is a developer at FutureLearn, a social learning platform, backed by the Open University, offering free courses from a wide range of university partners and cultural institutions. She loves attending and hacking at Hackdays, BarCamps and other tech meet ups, and since 2009 has been organising them at Geeks of London, including HACKED at the O2 last year. She also runs MissGeeky.com, a <a href="https://twitter.com/mseckington">blog</a> about all things geeky and girly. </p>
+         <h5 class="text-muted text-center">Developer, event organiser and blogger</h5>
+        <p>Melinda Seckington is a developer at <a href="https://www.futurelearn.com/">FutureLearn</a>, a social learning platform, backed by the Open University, offering free courses from a wide range of university partners and cultural institutions. She loves attending and hacking at Hackdays, BarCamps and other tech meet ups, and since 2009 has been organising them at <a href="http://geeksoflondon.com/">Geeks of London</a>, including HACKED at the O2 last year. She also runs <a href="https://twitter.com/mseckington">MissGeeky.com</a>, a blog about all things geeky and girly. </p>
       </div>
     </div>
     <div class="carousel-item">
@@ -31,7 +31,7 @@
       </a>
       <div class="carousel-detail">
         <h5 class="text-muted text-center">PhD student, co-ambassador of London Geekettes and gamer</h5>
-        <p>Marily is a Predictive Analytics PhD student at Imperial College London. As well as recieving the Google Anita Borg Memorial Scholarship, Marily has written notable articles and given multiple interviews and talks. If you haven't already, check out Marily's <a href="https://www.youtube.com/watch?v=LV5tHl69Qdk">TEDx talk</a>. </p>
+        <p>Marily is a <a href="http://www.marily.me/">Predictive Analytics PhD student</a> at Imperial College London. As well as recieving the Google Anita Borg Memorial Scholarship, Marily has written notable articles and given multiple interviews and talks. If you haven't already, check out Marily's <a href="https://www.youtube.com/watch?v=LV5tHl69Qdk">TEDx talk</a>. </p>
       </div>
     </div>
     <div class="carousel-item">
@@ -70,16 +70,16 @@
         <p>Lisa is a well connected digital information technology and new media consultant who is currently working for Twilio. She runs Berlin Geekettes and her <a href="https://vine.co/v/Mp60BB0Uj05">LED fashion project</a> looks awesome.</p>
       </div>
     </div>
-    <!--<div class="carousel-item">
+    <div class="carousel-item">
       <div class="carousel-title text-center">
-        <h3>A very very</h3>
+        <h3>Paola Kathuria</h3>
       </div>
       <a class="carousel-link">
-        <img src="http://placekitten.com/500/200" >
+        <img src="img/paola.jpg" >
       </a>
       <div class="carousel-detail">
-        <h5 class="text-muted text-center">Lorem Lorem</h5>
-        <p>Lorem ipsum dolor ssit ametit amet, consectetur adipiscing elit. Aliquam at turpis est adipiscing elit, eliquam at turpis est. </p>
+        <h5 class="text-muted text-center">Developer, UX Strategist and Business Owner</h5>
+        <p><a href="http://www.paolability.com/">Paola</a> co-founded Limitless, one of the UK’s first Internet companies, valued £2.5m after five years. She has a BSc in Psychology from Leeds and an MSc in Computing Science from Stafford. In her <a href="http://www.limov.com/">25-year career</a> in the computing industry, she has worked as a database developer, <a href="http://pootability.wordpress.com/2013/08/30/how-i-got-an-interview-at-moo/">UI designer</a> and project manager. She ran a successful <a href=" https://www.kickstarter.com/projects/paolability/fingers-and-tongues">Kickstarter campaign</a> this year to print a book of her feminist porn.</p>
       </div>
     </div> -->
   </div>
