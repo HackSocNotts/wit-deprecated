@@ -8,7 +8,7 @@
       </div>
     </div>
 
-    <?php $class = "col-md-4 col-sm-3 col-xs-12"; ?>
+    <?php $class = "col-md-4 col-sm-4 col-xs-12"; ?>
 
     <div class="row">
       <div class="<?php echo $class; ?>">
@@ -45,7 +45,7 @@
     </div>
 
     <div class="row">
-      <div class="col-md-offset-4 <?php echo $class; ?>">
+      <div class="col-sm-offset-4 col-md-offset-4 <?php echo $class; ?>">
         <p class="highlight"><strong>Do we get food and drinks?</strong></p>
         <p class="text-muted">We will provide a continental breakfast at registration, refreshments throughout the day and lunch.</p>
       </div>
