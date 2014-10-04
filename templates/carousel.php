@@ -54,7 +54,7 @@
         <img src="img/astrid.jpg">
       </a>
       <div class="carousel-detail">
-        <h5 class="text-muted text-center">Artist, designer and PhD student</h5>
+        <h5 class="text-muted text-center">Artist, designer and researcher</h5>
         <p>Astrid is studying for her PhD in electronic engineering at Queen Mary University of London. As an artist, Astrid has undertaken numerous <a href="http://www.astridbin.com/">fascinating projects</a> including exploring the human-machine relationship, audio based gaming and working with augmented reality.</p>
       </div>
     </div>
