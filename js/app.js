@@ -59,7 +59,8 @@ $(document).ready(function(){
     onInitialized: fit,
     onResized: fit,
     itemsDesktop : [1199,3],
-    itemsDesktopSmall : [979,3]
+    itemsDesktopSmall : [979,3],
+    paginationSpeed : 1400
   });
   // $('a').smoothScroll({offset: -50, speed:'auto', autoCoefficient:3});
 });
