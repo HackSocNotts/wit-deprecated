@@ -93,3 +93,7 @@ section#carousel {
 .owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
   background: #b38b01;
 }
+
+#about p {
+    margin-bottom: 25px;
+}
