@@ -35,12 +35,12 @@
 
       <div class="<?php echo $class; ?>">
         <p class="highlight"><strong>What workshops can I take part in?</strong></p>
-        <p class="text-muted">Bare with us!</p>
+        <p class="text-muted">Workshops and talks will be given by Code Club, Pixel Rift, Impression, Uni of Nottingham careers with more to be announced soon. </p>
       </div>
 
       <div class="<?php echo $class; ?>">
         <p class="highlight"><strong>Which companies will be there?</strong></p>
-        <p class="text-muted">Coming soon!</p>
+        <p class="text-muted">Capital One, KMPG, Goldman Sachs and many more!</p>
       </div>
     </div>
 
