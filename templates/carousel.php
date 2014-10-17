@@ -91,7 +91,7 @@
       </a>
       <div class="carousel-detail">
         <h5 class="text-muted text-center">Lecturer, Professional Geek and Soprano Cornet Player</h5>
-        <p>Julie is a 'Geordie on tour', working as a lecturer in Computer Science at the University of Nottingham. Her research involves the creation of 'artificial immune systems' to fight computer viruses and the use of technology in understanding human emotions. This has included the analysis of how people behave on rollercoasters, meaning that she rides rollercoasters in the name of science. When she is not playing with computers (as her Mum calls it), Julie plays in a local brass band and is a committed musical performer.</p>
+        <p>Julie is a 'Geordie on tour', working as a <a href="http://www.cs.nott.ac.uk/~jqg/Home.html">lecturer in Computer Science</a> at the University of Nottingham. Her research involves the creation of 'artificial immune systems' to fight computer viruses and the use of technology in understanding human emotions. This has included the analysis of how people behave on rollercoasters, meaning that she rides rollercoasters in the name of science. When she is not playing with computers (as her Mum calls it), Julie plays in a local brass band and is a committed musical performer.</p>
       </div>
     </div>
  <!-- About Section     <div class="carousel-item">
