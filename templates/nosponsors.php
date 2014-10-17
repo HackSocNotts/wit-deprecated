@@ -34,11 +34,17 @@
     </div>
 
     <div class="row">
-      <div class="col-lg-2 col-lg-offset-4">
+      <div class="col-lg-2 col-lg-offset-2">
+  <img src="img/sponsors/compsoc.png" />
+      </div>
+      <div class="col-lg-2">
 	<img src="img/sponsors/pixelrift.jpg" />
       </div>
       <div class="col-lg-2">
 	<img src="img/sponsors/impression.png" />
+      </div>
+      <div class="col-lg-2">
+  <img src="img/sponsors/uber.jpg" />
       </div>
     </div>
         <div class="text-center"><h4>If you're interested in becoming a sponsor, contact us <a class="email-text" href="mailto:prclerkin@gmail.com">here</a>.</h4></div>
