@@ -1,6 +1,6 @@
 <!-- * schedule.php start * -->
 <!-- Schedule Section -->
-<section id="sponsors">
+<section id="schedule">
   <div class="container">
     <div class="row">
       <div class="col-lg-12 text-center">
