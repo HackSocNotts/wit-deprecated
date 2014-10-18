@@ -34,21 +34,19 @@
     </div>
 
     <div class="row">
-      <div class="col-lg-2 col-lg-offset-2">
+      <div class="col-lg-3 col-lg-offset-2">
         <a href="http://www.su.nottingham.ac.uk/societies/society/compsoc/"><img src="img/sponsors/compsoc.png" /></a>
       </div>
-      <div class="col-lg-2">
-  <a href="http://www.pixelriftgame.com/"><img src="img/sponsors/pixelrift.jpg" /></a>
-      </div>
-      <div class="col-lg-2">
+      <div class="col-lg-3">
         <a href="https://www.impression.co.uk/"><img src="img/sponsors/impression.png" /></a>
       </div>
-      <div class="col-lg-2">
+      <div class="col-lg-3">
         <a href="https://www.uber.com/"><img src="img/sponsors/uber.jpg" /></a>
       </div>
     </div>
         </br><div class="text-center"><h4>If you're interested in becoming a sponsor, contact us <a class="email-text" href="mailto:prclerkin@gmail.com">here</a>.</h4></div>
     </div>
-  </div>
+
+</div>
 </section>
 <!-- = nosponsors.php end = -->
