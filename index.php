@@ -57,6 +57,8 @@
 -->
   <?php include 'templates/faq.php';?>
 
+  <?php include 'templates/schedule.php';?>
+
 
   <!-- Contact form, not yet used -->
   <?php include 'templates/contact.php'; ?>
