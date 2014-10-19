@@ -11,9 +11,13 @@
 
 <?php 
 	$classes = array("","");
-	foreach (array("lg", "md", "sm", "xs") as $n) {
+	foreach (array("lg", "md") as $n) {
 		$classes[0] .= "col-$n-4 col-$n-offset-2 ";
 		$classes[1] .= "col-$n-4 ";
+ 	}
+	foreach (array("sm", "xs") as $n) {
+		$classes[0] .= "col-$n-5 col-$n-offset-2 ";
+		$classes[1] .= "col-$n-5 ";
  	}
 ?>
     <div class="row">
