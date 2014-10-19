@@ -12,8 +12,8 @@
     <div class="row">
       <div class="text-right">
       <div class="col-lg-4 col-lg-offset-2">
-        <p>9:00 - 9:30</p>
-        <p>9:30 - 9:50</p>
+        <p>09:00 - 09:30</p>
+        <p>09:30 - 09:50</p>
         <p>09:50 - 11-10</p>
       </div>
     </div>
