@@ -21,7 +21,7 @@
       <div class="<?php echo $classes[0]; ?>">
         <p>09:00 - 09:30</p>
         <p>09:30 - 09:50</p>
-        <p>09:50 - 11-10</p>
+        <p>09:50 - 11-10&nbsp;</p>
       </div>
     </div>
       <div class="<?php echo $classes[1]; ?>">
