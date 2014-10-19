@@ -12,35 +12,34 @@
         <h3>Become part of our team</h3></br>
     </div>
 
-    <div class="row">
-      <div class="col-lg-2">
-        <a href="http://www.su.nottingham.ac.uk/societies/society/Hack/"><img src="img/sponsors/Hacksoc" /></a>
-      </div>
-      <div class="col-lg-2">
-        <a href="https://www.codeclub.org.uk/"><img src="img/sponsors/codeclub.png" /></a>
-      </div>
-      <div class="col-lg-2">
-        <a href="http://www.capitalone.co.uk/web/index.jsf"><img src="img/sponsors/capitalone.jpg" /></a>
-      </div>
-      <div class="col-lg-2">
-        <a href="http://www.goldmansachs.com/"><img src="img/sponsors/goldmansachs.png" /></a>
-      </div>
-      <div class="col-lg-2">
-        <a href="http://www.kpmg.com/uk/en/pages/default.aspx"><img src="img/sponsors/kpmg.png" /></a>
-      </div>
-      <div class="col-lg-2">
-        <a href="http://www.flyhighmedia.co.uk/"><img src="img/sponsors/flyhigh.png" /></a>
-      </div>
-    </div>
+<?php $classes = "col-lg-2 col-md-2 col-sm-3 col-xs-6"; ?>
 
     <div class="row">
-      <div class="col-lg-3 col-lg-offset-2">
+      <div class="<?php echo $classes; ?>">
+        <a href="http://www.su.nottingham.ac.uk/societies/society/Hack/"><img src="img/sponsors/Hacksoc" /></a>
+      </div>
+      <div class="<?php echo $classes; ?>">
+        <a href="https://www.codeclub.org.uk/"><img src="img/sponsors/codeclub.png" /></a>
+      </div>
+      <div class="<?php echo $classes; ?>">
+        <a href="http://www.capitalone.co.uk/web/index.jsf"><img src="img/sponsors/capitalone.jpg" /></a>
+      </div>
+      <div class="<?php echo $classes; ?>">
+        <a href="http://www.goldmansachs.com/"><img src="img/sponsors/goldmansachs.png" /></a>
+      </div>
+      <div class="<?php echo $classes; ?>">
+        <a href="http://www.kpmg.com/uk/en/pages/default.aspx"><img src="img/sponsors/kpmg.png" /></a>
+      </div>
+      <div class="<?php echo $classes; ?>">
+        <a href="http://www.flyhighmedia.co.uk/"><img src="img/sponsors/flyhigh.png" /></a>
+      </div>
+      <div class="<?php echo $classes; ?>">
         <a href="http://www.su.nottingham.ac.uk/societies/society/compsoc/"><img src="img/sponsors/compsoc.png" /></a>
       </div>
-      <div class="col-lg-3">
+      <div class="<?php echo $classes; ?>">
         <a href="https://www.impression.co.uk/"><img src="img/sponsors/impression.png" /></a>
       </div>
-      <div class="col-lg-3">
+      <div class="<?php echo $classes; ?>">
         <a href="https://www.uber.com/"><img src="img/sponsors/uber.jpg" /></a>
       </div>
     </div>
