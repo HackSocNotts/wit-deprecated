@@ -51,14 +51,14 @@
 
   <?php include 'templates/about.php';?>
 
+  <?php include 'templates/schedule.php';?>
+
+  <?php include 'templates/faq.php';?>
+
   <?php include 'templates/nosponsors.php';?>
 <!--
   php include 'templates/sponsors.php';
 -->
-  <?php include 'templates/faq.php';?>
-
-  <?php include 'templates/schedule.php';?>
-
 
   <!-- Contact form, not yet used -->
   <?php include 'templates/contact.php'; ?>
