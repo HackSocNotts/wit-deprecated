@@ -43,7 +43,10 @@
         <a href="https://www.uber.com/"><img src="img/sponsors/uber.jpg" /></a>
       </div>
     </div>
-        </br><div class="text-center"><h4>If you're interested in becoming a sponsor, contact us <a class="email-text" href="mailto:prclerkin@gmail.com">here</a>.</h4></div>
+        </br><div class="text-center">
+        <h4>If you're interested in becoming a sponsor, contact us <a class="email-text" href="mailto:prclerkin@gmail.com">here</a>.</h4>
+        <h4><a class="media-pack" href="https://www.dropbox.com/s/8nhd1m7iev48x48/media-pack.zip?dl=0">Media pack</a></h4>
+        </div>
     </div>
 
 </div>

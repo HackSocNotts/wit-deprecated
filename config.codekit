@@ -168,6 +168,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 1
 		},
+	"\/img\/logo-small-wit.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 48146,
+		"inputAbbreviatedPath": "\/img\/logo-small-wit.png",
+		"outputAbbreviatedPath": "\/img\/logo-small-wit.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
 	"\/img\/logo.png": {
 		"fileType": 32768,
 		"ignore": 0,

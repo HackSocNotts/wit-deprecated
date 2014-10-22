@@ -14,8 +14,37 @@
   <!-- IE compatibility mode -->
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Women in Tech conference">
-  <meta name="author" content="HackSoc Nottingham">
+
+  <!-- Google -->
+  <meta name="description" content="Women In Tech Conference" />
+  <meta name="keywords" content="hacksoc women in tech technology hacking" />
+
+  <meta name="author" content="UoN HackSoc" />
+  <meta name="copyright" content="UoN HackSoc" />
+  <meta name="application-name" content="Women In tech" />
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="Women In Tech Conference" />
+  <meta name="twitter:description" content="The University of Nottingham's Women In Technology day is for everyone;
+  tech enthusiasts, non-programmers, students at college or university, women or men from all walks of life.
+  Only 13% of STEM jobs in the UK are occupied by women and out of all the CS students in the UK,
+  only 18% are female. This event strives to celebrate the individuals behind the figures,
+  and share their fascinating life experiences in the tech industry." />
+  <meta name="twitter:image" content="http://www.inspirewit.com/img/logo-small-wit.png" />
+
+  <!-- Facebook -->
+  <meta property="og:title" content="Women In Tech Conference" />
+  <meta property="og:site_name" content="Women In Tech"/>
+  <meta property="og:type" content="article" />
+  <meta property="og:url" content="http://www.inspirewit.com/" />
+  <meta property="og:image" content="http://www.inspirewit.com/img/logo-small-wit.png" />
+  <meta property="og:description" content="The University of Nottingham's Women In Technology day is for everyone;
+  tech enthusiasts, non-programmers, students at college or university, women or men from all walks of life.
+  Only 13% of STEM jobs in the UK are occupied by women and out of all the CS students in the UK,
+  only 18% are female. This event strives to celebrate the individuals behind the figures,
+  and share their fascinating life experiences in the tech industry." />
+
   <link rel="shortcut icon" sizes="64x64" href="favicon.ico">
 
   <title>Women in Tech</title>

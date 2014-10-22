@@ -14,7 +14,7 @@
 	<p>Only 13% of STEM jobs in the UK are occupied by women and out of all the CS students in the UK, only 18% are female. </p>
 	<p>This event strives to celebrate the individuals behind the figures, and share their fascinating life experiences in the tech industry. </p>
       </div>
-      
+
       <div class="col-lg-4">
 
 	<p>There will be three parts to the day; talks from some of the most fascinating women within the tech industry, workshops; from hands on programming to smaller talks, and an afternoon of networking opportunities with the best companies around.</p>
