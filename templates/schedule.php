@@ -8,27 +8,18 @@
         <hr class="star-primary">
       </div>
     </div>
-
-<?php 
-	$classes = array("","");
-	foreach (array("lg", "md") as $n) {
-		$classes[0] .= "col-$n-4 col-$n-offset-2 ";
-		$classes[1] .= "col-$n-4 ";
- 	}
-	foreach (array("sm", "xs") as $n) {
-		$classes[0] .= "col-$n-5 col-$n-offset-2 ";
-		$classes[1] .= "col-$n-5 ";
- 	}
-?>
+    <div class="text-center">
+      <h4>Arrive</h4>
+    </div>
     <div class="row">
       <div class="text-right">
-      <div class="<?php echo $classes[0]; ?>">
+      <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
         <p>09:00 - 09:30</p>
         <p>09:30 - 09:50</p>
-        <p>09:50 - 11-10&nbsp;</p>
+        <p>09:50 - 11:10</p>
       </div>
     </div>
-      <div class="<?php echo $classes[1]; ?>">
+      <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
         <p>Registration</p>
         <p>Welcome address</p>
         <p>Speakers</p>
@@ -41,11 +32,11 @@
 
     <div class="row">
       <div class="text-right">
-      <div class="<?php echo $classes[0]; ?>">
+      <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
         <p>11:30 - 12:50</p>
       </div>
     </div>
-      <div class="<?php echo $classes[1]; ?>">
+      <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
         <p>Speakers</p>
       </div>
     </div>
@@ -57,13 +48,13 @@
 
     <div class="row">
       <div class="text-right">
-      <div class="<?php echo $classes[0]; ?>">
+      <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
         <p>13:30 - 14:30</p>
         <p>14:30 - 15:30</p>
         <p>15:30 - 16:30</p>
       </div>
     </div>
-      <div class="<?php echo $classes[1]; ?>">
+      <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
         <p>Workshops 1</p>
         <p>Workshops 2</p>
         <p>Workshops 3</p>
@@ -76,11 +67,11 @@
 
     <div class="row">
       <div class="text-right">
-      <div class="<?php echo $classes[0]; ?>">
+      <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
         <p>16:45 - 17:00</p>
       </div>
     </div>
-      <div class="<?php echo $classes[1]; ?>">
+      <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
         <p>Close</p>
       </div>
     </div>

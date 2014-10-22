@@ -81,7 +81,7 @@
         <h5 class="text-muted text-center">Developer, UX Strategist and Business Owner</h5>
         <p><a href="http://www.paolability.com/">Paola</a> co-founded Limitless, one of the UK’s first Internet companies, valued £2.5m after five years. She has a BSc in Psychology from Leeds and an MSc in Computing Science from Stafford. In her <a href="http://www.limov.com/">25-year career</a> in the computing industry, she has worked as a database developer, <a href="http://pootability.wordpress.com/2013/08/30/how-i-got-an-interview-at-moo/">UI designer</a> and project manager. She ran a successful <a href=" https://www.kickstarter.com/projects/paolability/fingers-and-tongues">Kickstarter campaign</a> this year to print a book of her feminist porn.</p>
       </div>
-    </div> 
+    </div>
     <div class="carousel-item">
       <div class="carousel-title text-center">
         <h3>Julie Greensmith</h3>

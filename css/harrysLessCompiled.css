@@ -8,8 +8,12 @@ body {
 p {
   font-size: 20px;
 }
-p.small {
-  font-size: 16px;
+#schedule .container h4 {
+  padding: 20px;
+  background: #eee;
+  width: 400px;
+  margin-left: auto;
+  margin-right: auto;
 }
 a,
 a:hover,
@@ -62,9 +66,6 @@ hr.star-primary:after {
   background-color: white;
   color: #aaaaaa;
 }
-.img-centered {
-  margin: 0 auto;
-}
 .btn {
   -webkit-border-radius: 6px;
   -moz-border-radius: 6px;
@@ -111,11 +112,6 @@ header .container {
 header img {
   display: block;
   margin: 0 auto 0;
-}
-header .img-logo {
-  padding-top: 50px;
-  width: 9%;
-  padding-right: 5px;
 }
 header .img-logo-heading {
   width: 60%;
@@ -261,54 +257,6 @@ section.success {
     padding-top: 75px;
   }
 }
-#sponsors .sponsors-item {
-  margin: 0 0 15px;
-  right: 0;
-}
-#sponsors .sponsors-item .sponsors-link {
-  display: block;
-  position: relative;
-  max-width: 400px;
-  margin: 0 auto;
-}
-#sponsors .sponsors-item .sponsors-link .caption {
-  background: rgba(34, 34, 34, 0.9);
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  opacity: 0;
-  transition: all ease 0.5s;
-  -webkit-transition: all ease 0.5s;
-  -moz-transition: all ease 0.5s;
-}
-#sponsors .sponsors-item .sponsors-link .caption:hover {
-  opacity: 1;
-}
-#sponsors .sponsors-item .sponsors-link .caption .caption-content {
-  position: absolute;
-  width: 100%;
-  height: 20px;
-  font-size: 20px;
-  text-align: center;
-  top: 50%;
-  margin-top: -12px;
-  color: white;
-}
-#sponsors .sponsors-item .sponsors-link .caption .caption-content i {
-  margin-top: -12px;
-}
-#sponsors .sponsors-item .sponsors-link .caption .caption-content h3,
-#sponsors .sponsors-item .sponsors-link .caption .caption-content h4 {
-  margin: 0;
-}
-#sponsors * {
-  z-index: 2;
-}
-@media (min-width: 767px) {
-  #sponsors .sponsors-item {
-    margin: 0 0 30px;
-  }
-}
 .btn-outline {
   color: white;
   font-size: 20px;
@@ -430,91 +378,8 @@ form .row:first-child .floating-label-form-group {
 #base .container .social li.twitter a {
   background-image: url("../img/social_twitter.png");
 }
-.btn-social {
-  display: inline-block;
-  height: 50px;
-  width: 50px;
-  border: 2px solid white;
-  border-radius: 100%;
-  text-align: center;
-  font-size: 20px;
-  line-height: 45px;
-}
 .btn:focus,
 .btn:active,
 .btn.active {
   outline: none;
-}
-.scroll-top {
-  position: fixed;
-  right: 2%;
-  bottom: 2%;
-  width: 50px;
-  height: 50px;
-  z-index: 1049;
-}
-.scroll-top .btn {
-  font-size: 20px;
-  width: 50px;
-  height: 50px;
-  border-radius: 100%;
-  line-height: 28px;
-}
-.scroll-top .btn:focus {
-  outline: none;
-}
-.sponsors-modal .modal-content {
-  border-radius: 0;
-  background-clip: border-box;
-  -webkit-box-shadow: none;
-  box-shadow: none;
-  border: none;
-  min-height: 100%;
-  padding: 100px 0;
-  text-align: center;
-}
-.sponsors-modal .modal-content h2 {
-  margin: 0;
-  font-size: 3em;
-}
-.sponsors-modal .modal-content img {
-  margin-bottom: 30px;
-}
-.sponsors-modal .modal-content .item-details {
-  margin: 30px 0;
-}
-.sponsors-modal .close-modal {
-  position: absolute;
-  width: 75px;
-  height: 75px;
-  background-color: transparent;
-  top: 25px;
-  right: 25px;
-  cursor: pointer;
-}
-.sponsors-modal .close-modal:hover {
-  opacity: 0.3;
-}
-.sponsors-modal .close-modal .lr {
-  height: 75px;
-  width: 1px;
-  margin-left: 35px;
-  background-color: #aaaaaa;
-  transform: rotate(45deg);
-  -ms-transform: rotate(45deg);
-  /* IE 9 */
-  -webkit-transform: rotate(45deg);
-  /* Safari and Chrome */
-  z-index: 1051;
-}
-.sponsors-modal .close-modal .lr .rl {
-  height: 75px;
-  width: 1px;
-  background-color: #aaaaaa;
-  transform: rotate(90deg);
-  -ms-transform: rotate(90deg);
-  /* IE 9 */
-  -webkit-transform: rotate(90deg);
-  /* Safari and Chrome */
-  z-index: 1052;
 }

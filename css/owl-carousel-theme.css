@@ -63,5 +63,20 @@
   }
   .owl-item {
     padding: 0px !important;
+    width: 170px !important;
+    margin-right: 45px !important;
+    margin-left: -30px !important;
+  }
+
+  .carousel-right {
+    display: none;
+  }
+
+  .carousel-left {
+    display: none;
+  }
+
+  #carousel {
+    height: 620px;
   }
 }
