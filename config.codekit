@@ -56,7 +56,7 @@
 		"outputAbbreviatedPath": "\/img\/astrid.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/bg_back.jpg": {
 		"fileType": 16384,
@@ -100,7 +100,7 @@
 		"outputAbbreviatedPath": "\/img\/bodil.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/favicon-base.png": {
 		"fileType": 32768,
@@ -122,7 +122,18 @@
 		"outputAbbreviatedPath": "\/img\/geeky.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
+		},
+	"\/img\/julie.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 47629,
+		"inputAbbreviatedPath": "\/img\/julie.jpg",
+		"outputAbbreviatedPath": "\/img\/julie.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
 		},
 	"\/img\/lisa.png": {
 		"fileType": 32768,
@@ -168,16 +179,27 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 1
 		},
-	"\/img\/Marily.jpg": {
+	"\/img\/marily.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 182220,
-		"inputAbbreviatedPath": "\/img\/Marily.jpg",
-		"outputAbbreviatedPath": "\/img\/Marily.jpg",
+		"inputAbbreviatedPath": "\/img\/marily.jpg",
+		"outputAbbreviatedPath": "\/img\/marily.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
+		},
+	"\/img\/paola.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 53558,
+		"inputAbbreviatedPath": "\/img\/paola.jpg",
+		"outputAbbreviatedPath": "\/img\/paola.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
 		},
 	"\/img\/profile-old.png": {
 		"fileType": 32768,
@@ -234,35 +256,46 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 1
 		},
-	"\/img\/sponsors\/cabin.png": {
-		"fileType": 32768,
+	"\/img\/sponsors\/capitalone.jpg": {
+		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 36514,
-		"inputAbbreviatedPath": "\/img\/sponsors\/cabin.png",
-		"outputAbbreviatedPath": "\/img\/sponsors\/cabin.png",
+		"initialSize": 32019,
+		"inputAbbreviatedPath": "\/img\/sponsors\/capitalone.jpg",
+		"outputAbbreviatedPath": "\/img\/sponsors\/capitalone.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 1
 		},
-	"\/img\/sponsors\/cake.png": {
+	"\/img\/sponsors\/codeclub.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 17068,
-		"inputAbbreviatedPath": "\/img\/sponsors\/cake.png",
-		"outputAbbreviatedPath": "\/img\/sponsors\/cake.png",
+		"initialSize": 18045,
+		"inputAbbreviatedPath": "\/img\/sponsors\/codeclub.png",
+		"outputAbbreviatedPath": "\/img\/sponsors\/codeclub.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 1
 		},
-	"\/img\/sponsors\/circus.png": {
+	"\/img\/sponsors\/compsoc.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 27984,
-		"inputAbbreviatedPath": "\/img\/sponsors\/circus.png",
-		"outputAbbreviatedPath": "\/img\/sponsors\/circus.png",
+		"initialSize": 11981,
+		"inputAbbreviatedPath": "\/img\/sponsors\/compsoc.png",
+		"outputAbbreviatedPath": "\/img\/sponsors\/compsoc.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/img\/sponsors\/flyhigh.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 13102,
+		"inputAbbreviatedPath": "\/img\/sponsors\/flyhigh.png",
+		"outputAbbreviatedPath": "\/img\/sponsors\/flyhigh.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 1
@@ -278,35 +311,57 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 1
 		},
-	"\/img\/sponsors\/placeholder.png": {
+	"\/img\/sponsors\/goldmansachs.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 0,
-		"inputAbbreviatedPath": "\/img\/sponsors\/placeholder.png",
-		"outputAbbreviatedPath": "\/img\/sponsors\/placeholder.png",
+		"initialSize": 10840,
+		"inputAbbreviatedPath": "\/img\/sponsors\/goldmansachs.png",
+		"outputAbbreviatedPath": "\/img\/sponsors\/goldmansachs.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 1
 		},
-	"\/img\/sponsors\/safe.png": {
+	"\/img\/sponsors\/impression.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 19240,
-		"inputAbbreviatedPath": "\/img\/sponsors\/safe.png",
-		"outputAbbreviatedPath": "\/img\/sponsors\/safe.png",
+		"initialSize": 18945,
+		"inputAbbreviatedPath": "\/img\/sponsors\/impression.png",
+		"outputAbbreviatedPath": "\/img\/sponsors\/impression.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 1
 		},
-	"\/img\/sponsors\/submarine.png": {
+	"\/img\/sponsors\/kpmg.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 24330,
-		"inputAbbreviatedPath": "\/img\/sponsors\/submarine.png",
-		"outputAbbreviatedPath": "\/img\/sponsors\/submarine.png",
+		"initialSize": 5111,
+		"inputAbbreviatedPath": "\/img\/sponsors\/kpmg.png",
+		"outputAbbreviatedPath": "\/img\/sponsors\/kpmg.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/img\/sponsors\/pixelrift.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 32156,
+		"inputAbbreviatedPath": "\/img\/sponsors\/pixelrift.jpg",
+		"outputAbbreviatedPath": "\/img\/sponsors\/pixelrift.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/img\/sponsors\/uber.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 13537,
+		"inputAbbreviatedPath": "\/img\/sponsors\/uber.jpg",
+		"outputAbbreviatedPath": "\/img\/sponsors\/uber.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 1
@@ -566,6 +621,15 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/templates\/register.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/templates\/schedule.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/templates\/schedule.php",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
