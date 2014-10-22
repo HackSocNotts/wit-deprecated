@@ -1,8 +1,7 @@
 
 ## Women In Tech website. ##
 
-Site is currently hosted at www.harrymt.com/wit for testing.
+Created by HackSoc[http://www.hacksocnotts.co.uk/]
 
-But this will not be the final hosting place.
-
+Hosted at inspirewit.com[http://www.inspirewit.com/]
 
