@@ -12,7 +12,7 @@
         <h3>Become part of our team</h3></br>
     </div>
 
-<?php $classes = "col-lg-2 col-md-2 col-sm-3 col-xs-6"; ?>
+<?php $classes = "sponsor-img col-lg-2 col-md-2 col-sm-3 col-xs-6"; ?>
 
     <div class="row">
       <div class="<?php echo $classes; ?>">
@@ -41,6 +41,12 @@
       </div>
       <div class="<?php echo $classes; ?>">
         <a href="https://www.uber.com/"><img src="img/sponsors/uber.jpg" /></a>
+      </div>
+      <div class="<?php echo $classes; ?>">
+        <a href="http://www.ey.com/UK/en/home"><img src="img/sponsors/ey.png" /></a>
+      </div>
+      <div class="<?php echo $classes; ?>">
+        <a href="http://mlh.io/"><img src="img/sponsors/mlh.png" style="width: 160px; height: 160px;"/></a>
       </div>
     </div>
         </br><div class="text-center">

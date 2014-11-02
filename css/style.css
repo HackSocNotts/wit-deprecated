@@ -97,3 +97,13 @@ section#carousel {
 #about p {
     margin-bottom: 25px;
 }
+
+.sponsor-img {
+  margin: 15px;
+}
+
+@media (max-width: 769px) {
+  .sponsor-img {
+    margin: 0;
+  }
+}

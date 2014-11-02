@@ -58,17 +58,6 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 1
 		},
-	"\/img\/bg_back.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 57322,
-		"inputAbbreviatedPath": "\/img\/bg_back.jpg",
-		"outputAbbreviatedPath": "\/img\/bg_back.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 1
-		},
 	"\/img\/bg_back_.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -76,17 +65,6 @@
 		"initialSize": 1.51666e+07,
 		"inputAbbreviatedPath": "\/img\/bg_back_.jpg",
 		"outputAbbreviatedPath": "\/img\/bg_back_.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 1
-		},
-	"\/img\/bg_back_dark.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 208440,
-		"inputAbbreviatedPath": "\/img\/bg_back_dark.jpg",
-		"outputAbbreviatedPath": "\/img\/bg_back_dark.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 1
@@ -123,6 +101,17 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 1
+		},
+	"\/img\/ivette.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 64206,
+		"inputAbbreviatedPath": "\/img\/ivette.png",
+		"outputAbbreviatedPath": "\/img\/ivette.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
 		},
 	"\/img\/julie.jpg": {
 		"fileType": 16384,
@@ -212,17 +201,6 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 1
 		},
-	"\/img\/profile-old.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 10284,
-		"inputAbbreviatedPath": "\/img\/profile-old.png",
-		"outputAbbreviatedPath": "\/img\/profile-old.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 1
-		},
 	"\/img\/social_facebook.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -300,6 +278,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 1
 		},
+	"\/img\/sponsors\/ey.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2665,
+		"inputAbbreviatedPath": "\/img\/sponsors\/ey.png",
+		"outputAbbreviatedPath": "\/img\/sponsors\/ey.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/sponsors\/flyhigh.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -354,6 +343,17 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 1
+		},
+	"\/img\/sponsors\/mlh.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 56060,
+		"inputAbbreviatedPath": "\/img\/sponsors\/mlh.png",
+		"outputAbbreviatedPath": "\/img\/sponsors\/mlh.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
 		},
 	"\/img\/sponsors\/pixelrift.jpg": {
 		"fileType": 16384,
