@@ -43,6 +43,9 @@
         <a href="http://www.su.nottingham.ac.uk/societies/society/compsoc/"><img src="img/sponsors/compsoc.png" /></a>
       </div>
       <div class="<?php echo $classes; ?>">
+        <a href="http://www.nottingham.ac.uk/careers/index.aspx"><img src="img/sponsors/uoncareers.png" /></a>
+      </div>
+      <div class="<?php echo $classes; ?>">
         <a href="https://www.impression.co.uk/"><img src="img/sponsors/impression.png" /></a>
       </div>
       <div class="<?php echo $classes; ?>">
