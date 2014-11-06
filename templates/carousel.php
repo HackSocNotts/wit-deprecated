@@ -52,16 +52,6 @@
     </div>
     <div class="carousel-item">
       <div class="carousel-title text-center">
-        <h3>Lisa Lang</h3>
-      </div>
-      <a class="carousel-link"><img src="img/lisa.png"></a>
-      <div class="carousel-detail">
-        <h5 class="text-muted text-center">European Marketing Strategy at Twilio, Geekette and consultant</h5>
-        <p>Lisa is a well connected digital information technology and new media consultant who is currently working for Twilio. She runs Berlin Geekettes and her <a href="https://vine.co/v/Mp60BB0Uj05">LED fashion project</a> looks awesome.</p>
-      </div>
-    </div>
-    <div class="carousel-item">
-      <div class="carousel-title text-center">
         <h3>Paola Kathuria</h3>
       </div>
       <a class="carousel-link"><img src="img/paola.jpg" ></a>
