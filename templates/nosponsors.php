@@ -19,10 +19,16 @@
         <a href="http://www.su.nottingham.ac.uk/societies/society/Hack/"><img src="img/sponsors/Hacksoc" /></a>
       </div>
       <div class="<?php echo $classes; ?>">
+        <a href="http://mlh.io/"><img src="img/sponsors/mlh.png" style="width: 160px; height: 160px;"/></a>
+      </div>
+      <div class="<?php echo $classes; ?>">
         <a href="https://www.codeclub.org.uk/"><img src="img/sponsors/codeclub.png" /></a>
       </div>
       <div class="<?php echo $classes; ?>">
         <a href="http://www.capitalone.co.uk/web/index.jsf"><img src="img/sponsors/capitalone.jpg" /></a>
+      </div>
+      <div class="<?php echo $classes; ?>">
+        <a href="http://www.ibm.com/uk/en/"><img src="img/sponsors/ibm.jpg" style="width: 160px; height: 160px;"/></a>
       </div>
       <div class="<?php echo $classes; ?>">
         <a href="http://www.goldmansachs.com/"><img src="img/sponsors/goldmansachs.png" /></a>
@@ -44,9 +50,6 @@
       </div>
       <div class="<?php echo $classes; ?>">
         <a href="http://www.ey.com/UK/en/home"><img src="img/sponsors/ey.png" /></a>
-      </div>
-      <div class="<?php echo $classes; ?>">
-        <a href="http://mlh.io/"><img src="img/sponsors/mlh.png" style="width: 160px; height: 160px;"/></a>
       </div>
     </div>
         </br><div class="text-center">
