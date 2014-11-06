@@ -51,6 +51,9 @@
       <div class="<?php echo $classes; ?>">
         <a href="http://www.ey.com/UK/en/home"><img src="img/sponsors/ey.png" /></a>
       </div>
+      <div class="<?php echo $classes; ?>">
+        <a href="http://beta.makesense.org/"><img src="img/sponsors/makesense.jpg" /></a>
+      </div>
     </div>
         </br><div class="text-center">
         <h4>If you're interested in becoming a sponsor, contact us <a class="email-text" href="mailto:prclerkin@gmail.com">here</a>.</h4>
