@@ -35,19 +35,19 @@
 
       <div class="<?php echo $class; ?>">
         <p class="highlight"><strong>What workshops can I take part in?</strong></p>
-        <p class="text-muted">Workshops and talks will be given by Code Club, Impression, Uni of Nottingham Careers, with more to be announced soon. </p>
+        <p class="text-muted">Workshops and talks will be given by Capital One, Code Club, Impression, Uni of Nottingham Careers, MakeSense with more to be announced soon. </p>
       </div>
 
       <div class="<?php echo $class; ?>">
         <p class="highlight"><strong>Which companies will be there?</strong></p>
-        <p class="text-muted">Capital One, KMPG, Goldman Sachs and many more!</p>
+        <p class="text-muted">Capital One, IBM, KMPG, Goldman Sachs, EY to name a few!</p>
       </div>
     </div>
 
     <div class="row">
       <div class="col-sm-offset-4 col-md-offset-4 <?php echo $class; ?>">
         <p class="highlight"><strong>Do we get food and drinks?</strong></p>
-        <p class="text-muted">We will provide a continental breakfast at registration, refreshments throughout the day and lunch.</p>
+        <p class="text-muted">We will provide a continental breakfast during registration, lunch and refreshments throughout the day.</p>
       </div>
 
     </div> <!-- Close grid -->
