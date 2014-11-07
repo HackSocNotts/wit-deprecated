@@ -8,6 +8,9 @@
         <hr class="star-primary">
       </div>
     </div>
+
+    <div class="row">
+      <div class="col-lg-4 col-lg-offset-1">
     <div class="text-center">
       <h4>Arrive</h4>
     </div>
@@ -21,7 +24,7 @@
     </div>
       <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
         <p>Registration</p>
-        <p>Welcome address</p>
+        <p>Welcome</p>
         <p>Speakers</p>
       </div>
     </div>
@@ -75,7 +78,9 @@
         <p>Close</p>
       </div>
     </div>
-<div class ="text-center">
+  </div>
+<div class="col-lg-4 col-lg-offset-1">
+  <p style="padding-top:80px">
   <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2403.820155140037!2d-1.186477000000016!3d52.95165900000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4879c21d258aeb79%3A0x4da28c4722953e75!2sBusiness+School+(South)!5e0!3m2!1sen!2suk!4v1415318770393" width="600" height="450" frameborder="0" style="border:0"></iframe>
 </div>
   </div>
