@@ -322,6 +322,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 1
 		},
+	"\/img\/sponsors\/ibm.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 6489,
+		"inputAbbreviatedPath": "\/img\/sponsors\/ibm.jpg",
+		"outputAbbreviatedPath": "\/img\/sponsors\/ibm.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/sponsors\/impression.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -343,6 +354,17 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 1
+		},
+	"\/img\/sponsors\/makesense.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 5235,
+		"inputAbbreviatedPath": "\/img\/sponsors\/makesense.jpg",
+		"outputAbbreviatedPath": "\/img\/sponsors\/makesense.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
 		},
 	"\/img\/sponsors\/mlh.png": {
 		"fileType": 32768,
@@ -376,6 +398,17 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 1
+		},
+	"\/img\/sponsors\/uoncareers.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4748,
+		"inputAbbreviatedPath": "\/img\/sponsors\/uoncareers.png",
+		"outputAbbreviatedPath": "\/img\/sponsors\/uoncareers.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
 		},
 	"\/index.php": {
 		"fileType": 8192,

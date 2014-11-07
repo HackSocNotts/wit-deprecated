@@ -79,10 +79,32 @@
       </div>
     </div>
   </div>
-<div class="col-lg-4 col-lg-offset-1">
-  <p style="padding-top:80px">
-  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2403.820155140037!2d-1.186477000000016!3d52.95165900000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4879c21d258aeb79%3A0x4da28c4722953e75!2sBusiness+School+(South)!5e0!3m2!1sen!2suk!4v1415318770393" width="600" height="450" frameborder="0" style="border:0"></iframe>
-</div>
+    <div class="col-lg-4 col-lg-offset-1">
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDBmbxXmi_WiX322tfOyGRaa3hw4vGDS7A"></script>
+    <script>
+    function initialize() {
+        var mapOptions = {center: { lat: 52.951659, lng: -1.186477}, zoom: 15,
+          panControl: false, zoomControl: true, mapTypeControl: true, scaleControl: false, streetViewControl: false, overviewMapControl: false,
+          styles: [{"featureType":"water","stylers":[{"visibility":"on"},{"color":"#acbcc9"}]},{"featureType":"landscape","stylers":[{"color":"#f2e5d4"}]},{"featureType":"road.highway","elementType":"geometry","stylers":[{"color":"#c5c6c6"}]},{"featureType":"road.arterial","elementType":"geometry","stylers":[{"color":"#e4d7c6"}]},{"featureType":"road.local","elementType":"geometry","stylers":[{"color":"#fbfaf7"}]},{"featureType":"poi.park","elementType":"geometry","stylers":[{"color":"#c5dac6"}]},{"featureType":"administrative","stylers":[{"visibility":"on"},{"lightness":33}]},{"featureType":"road"},{"featureType":"poi.park","elementType":"labels","stylers":[{"visibility":"on"},{"lightness":20}]},{},{"featureType":"road","stylers":[{"lightness":20}]}]
+        };
+        var map = new google.maps.Map(document.getElementById('map'),mapOptions);
+        map.setOptions({'scrollwheel': false}); // Disable zoom on scroll
+        var marker = new google.maps.Marker({
+          position: {lat: 52.951659, lng: -1.186477},
+          map: map,
+          title: 'Women In Tech'
+        });
+        var contentString = '<div id="content"><div id="container"><h3 style="font-size:20px;">Business School South</h3><p style="font-size:11px;"><b>Address:</b> Jubilee Campus, Wollaton Rd, Nottingham NG8 1BB</p><p><a style="text-decoration: underline; font-size: 15px;" href="https://www.google.co.uk/maps/place/Business+School+(South)/@52.951659,-1.186477,15z/data=!4m2!3m1!1s0x0:0x4da28c4722953e75?sa=X&ei=ci5dVKiyO6Kv7AbAw4GQAQ&ved=0CI0BEPwSMAs">Google Maps Link</a></p></div>';
+        var infowindow = new google.maps.InfoWindow({
+            content: contentString
+        });
+        google.maps.event.addListener(marker, 'click', function() {
+          infowindow.open(map,marker);
+        });
+      }
+      google.maps.event.addDomListener(window, 'load', initialize);
+    </script>
+    <div id="map"></div>
   </div>
 </section>
 <!-- = schedule.php end = -->

@@ -107,3 +107,25 @@ section#carousel {
     margin: 0;
   }
 }
+
+@media (max-width: 1500px) {
+  #map {
+    width: 400px !important;
+    height: 600px !important;
+  }
+}
+
+@media (max-width: 1200px) {
+  #map {
+    width: 100% !important;
+    height: 600px !important;
+    margin-top: 75px;
+  }
+}
+
+
+
+#map {
+    width: 100%;
+  height: 450px;
+}
