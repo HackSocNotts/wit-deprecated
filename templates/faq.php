@@ -42,12 +42,24 @@
         <p class="highlight"><strong>Which companies will be there?</strong></p>
         <p class="text-muted">Capital One, IBM, KMPG, Goldman Sachs, EY to name a few!</p>
       </div>
+
+      
     </div>
 
     <div class="row">
-      <div class="col-sm-offset-4 col-md-offset-4 <?php echo $class; ?>">
+      <div class="<?php echo $class; ?>">
         <p class="highlight"><strong>Do we get food and drinks?</strong></p>
         <p class="text-muted">We will provide a continental breakfast during registration, lunch and refreshments throughout the day.</p>
+      </div>
+
+      <div class="<?php echo $class; ?>">
+        <p class="highlight"><strong>How can I get more involved?</strong></p>
+        <p class="text-muted">The day after WIT, Sunday the 16th, there will be a hack day at the University of Nottingham. This is a great way to build cool technology, meet new people, and learn interesting things. Find out more <a href="http://tfogo.github.io/minihack/" target="_blank">here</a>.</p>
+      </div>
+
+      <div class="<?php echo $class; ?>">
+        <p class="highlight"><strong>Is there a code of conduct?</strong></p>
+        <p class="text-muted">Yes. We are dedicated to providing a fun, harassment-free experience for everyone. We expect all of our attendees, sponsors, volunteers, and staff to be respectful and considerate of others. They are all required to agree with this <a href="http://confcodeofconduct.com/" target="_blank">code of conduct.</a></p>
       </div>
 
     </div> <!-- Close grid -->
