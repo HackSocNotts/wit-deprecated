@@ -19,6 +19,9 @@
         <a href="http://www.su.nottingham.ac.uk/societies/society/Hack/"><img src="img/sponsors/Hacksoc" /></a>
       </div>
       <div class="<?php echo $classes; ?>">
+        <a href="http://www.su.nottingham.ac.uk/"><img src="img/sponsors/su.png" /></a>
+      </div>
+      <div class="<?php echo $classes; ?>">
         <a href="http://mlh.io/"><img src="img/sponsors/mlh.png" style="width: 160px; height: 160px;"/></a>
       </div>
       <div class="<?php echo $classes; ?>">
@@ -56,6 +59,9 @@
       </div>
       <div class="<?php echo $classes; ?>">
         <a href="http://beta.makesense.org/"><img src="img/sponsors/makesense.jpg" /></a>
+      </div>
+      <div class="<?php echo $classes; ?>">
+        <a href="http://www.sanctuarysearch.com/"><img src="img/sponsors/sact.png" /></a>
       </div>
     </div>
         </br><div class="text-center">
