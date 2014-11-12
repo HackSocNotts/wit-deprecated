@@ -55,7 +55,7 @@
         <a href="https://www.uber.com/"><img src="img/sponsors/uber.jpg" /></a>
       </div>
       <div class="<?php echo $classes; ?>">
-        <a href="http://www.bloomberg.com/"><img src="img/sponsors/bloom.jpg" /></a>
+        <a href="http://www.bloomberglabs.com/"><img src="img/sponsors/bloom.jpg" /></a>
       </div>
       <div class="<?php echo $classes; ?>">
         <a href="http://www.ey.com/UK/en/home"><img src="img/sponsors/ey.png" /></a>
