@@ -22,16 +22,6 @@
     </div>
     <div class="carousel-item">
       <div class="carousel-title text-center">
-        <h3>Marily Nika</h3>
-      </div>
-      <a class="carousel-link"><img src="img/marily.jpg"></a>
-      <div class="carousel-detail">
-        <h5 class="text-muted text-center">PhD student, co-ambassador of London Geekettes and gamer</h5>
-        <p>Marily is a <a href="http://www.marily.me/">Predictive Analytics PhD student</a> at Imperial College London. As well as recieving the Google Anita Borg Memorial Scholarship, Marily has written notable articles and given multiple interviews and talks. If you haven't already, check out Marily's <a href="https://www.youtube.com/watch?v=LV5tHl69Qdk">TEDx talk</a>. </p>
-      </div>
-    </div>
-    <div class="carousel-item">
-      <div class="carousel-title text-center">
         <h3>Bodil Stokke</h3>
       </div>
       <a class="carousel-link"><img src="img/bodil.jpg"></a>
