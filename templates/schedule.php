@@ -131,10 +131,10 @@
         <p><strong>14:30 - 15:15</strong></p>
       </div>
       <div class="col-md-3">
-        <p>What the API? - <strong>HackSoc</strong></p>
+        <p>How to be a Photoshop Pro - <strong>CompSoc</strong></p>
       </div>
       <div class="col-md-3">
-        <p>How to be a Photoshop Pro - <strong>CompSoc</strong></p>
+        <p>Ethical Hacking in 10 - <strong>CapitalOne</strong></p>
       </div>
       <div class="col-md-3">
         <p>Hold-Up - <strong>MakeSense</strong></p>
@@ -147,7 +147,7 @@
         <p><strong>15:30 - 16:15</strong></p>
       </div>
       <div class="col-md-3">
-        <p>Ethical Hacking in 10 - <strong>CapitalOne</strong></p>
+        <p>What the API? - <strong>HackSoc</strong></p>
       </div>
       <div class="col-md-3">
         <p>The Careers Talk - <strong>UoN Careers</strong></p>
