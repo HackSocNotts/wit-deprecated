@@ -118,7 +118,7 @@
         <p>Intro to Programming - <strong>Code Club</strong></p>
       </div>
       <div class="col-md-3">
-        <p>Tackling Techinical Interviews - <strong>Bloomberg</strong></p>
+        <p>Tackling Technical Interviews - <strong>Bloomberg</strong></p>
       </div>
       <div class="col-md-3">
         <p>SEO and Digital Marketing - <strong>Impression</strong></p>
