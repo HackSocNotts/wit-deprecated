@@ -158,6 +158,9 @@
     </div>
   </div>
 </div>
+<div class="text-center">
+  <h3>Here's a PDF version of Saturday's <a class="booklet" href="https://www.dropbox.com/s/k7wkq8gkfi16n67/WitLeaflet.pdf?dl=0">booklet</a></h3>
+</div>
 
 
 </body>
