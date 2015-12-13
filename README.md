@@ -13,3 +13,4 @@ Hosted at http://www.inspirewit.com/
 - [ ] Remove CodeKit
 - [ ] Remove Carousel
 - [ ] Sort out autodeployment with Travis
+- [ ] Add promotional photos from last year, found on [HackSoc 2014/15 drive] (https://drive.google.com/open?id=0B0BMWwh-HrjhOG9SbGJhRTY3X1k)
