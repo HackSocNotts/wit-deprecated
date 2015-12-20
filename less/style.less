@@ -1,8 +1,86 @@
-@import "variables.less";
-@import "mixins.less";
+//
+// VARIABLES
+//
+@brand-primary: #AAA; // default #2C3E50
+@brand-success: #222; // #18BC9C
+@brand-logo-yel: #FFED00;
+@brand-logo-ora: #F18700;
+@brand-logo-gre: #808080;
 
-// Note there are a lot of used styles here,
-// will remove on release
+// Font : Caviar Dreams bold
+@gray-lighter: lighten(#000, 93.5%); // #000, 93.5%
+
+
+
+
+
+//
+// MIXINS
+//
+//
+// BUTTONS
+// (This is used very little)
+//
+.button-variant(@color; @background; @border) {
+  color: @color;
+  background-color: @background;// Variables
+
+@brand-primary: #AAA; // default #2C3E50
+@brand-success: #222; // #18BC9C
+@brand-logo-yel: #FFED00;
+@brand-logo-ora: #F18700;
+@brand-logo-gre: #808080;
+// Font : Caviar Dreams bold
+@gray-lighter: lighten(#000, 93.5%); // #000, 93.5%
+
+  border-color: @border;
+
+  &:hover,
+  &:focus,
+  &:active,
+  &.active,
+  .open .dropdown-toggle& {
+    color: @color;
+    background-color: darken(@background, 10%);
+        border-color: darken(@border, 12%);
+  }
+  &:active,
+  &.active,
+  .open .dropdown-toggle& {
+    background-image: none;
+  }
+  &.disabled,
+  &[disabled],
+  fieldset[disabled] & {
+    &,
+    &:hover,
+    &:focus,
+    &:active,
+    &.active {
+      background-color: @background;
+      border-color: @border;
+    }
+  }
+
+  .badge {
+    color: @background;
+    background-color: @color;
+  }
+}
+
+
+
+
+//
+//
+//
+// MAIN STYLES
+//
+//
+// (A lot of unused styles here)
+//
+//
+//
 
 body {
   min-width: 100%;
@@ -133,7 +211,7 @@ hr.star-primary:after {
   height:100%;
   position:absolute;
   background-color:#000;
-  opacity:0.5;
+  opacity:0.4;
 }
 
 
@@ -474,4 +552,156 @@ form .row:first-child .floating-label-form-group {
 .btn:active,
 .btn.active {
 	outline: none;
+}
+
+
+
+
+
+
+
+
+
+
+//
+// CSS WAS IN OTHER FILE!!
+//
+//
+// NEEDS TO BE MOVED TO LESS
+//
+@import url(//fonts.googleapis.com/css?family=Montserrat:400,700|Lato:400,700,400italic,700italic|Roboto+Slab:400,100,300,700);
+@import url(//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css);
+
+body {
+  font-family: "Roboto Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.navbar-fixed-top {
+  padding: 0px;
+  height: 51px;
+  transition: margin-top 0.5s ease;
+}
+
+
+.navbar-inverse .navbar-nav > li > a {
+  transition: color 0.3s ease;
+  color: #fff;
+}
+
+.navbar-inverse .navbar-nav > li > a:hover {
+  color: #ffed00;
+}
+
+.logo {
+  max-height: 50px;
+}
+
+header .btn-register {
+  transition: color 0.1s ease,
+              border 0.1s ease;
+}
+header .btn-register:hover {
+  color: white;
+}
+
+.carousel-item {
+  margin-top: 50px;
+  background-color: #fff;
+}
+
+.carousel-title {
+  padding: 1px;
+}
+
+.carousel-detail {
+  padding: 25px;
+  text-align: justify;
+}
+
+.carousel-link img {
+  width: 100%;
+}
+
+.carousel-nav {
+  transition: color 1s ease;
+  /* color: rgba(0,0,0,0.5); */
+  /* text-shadow: 0px 0px 5px rgba(0,0,0,0.5); */
+  position: absolute;
+  margin-top: -10px;
+  margin-left: 30px;
+  z-index: 2;
+  font-size: 40px;
+  cursor: pointer;
+}
+
+.carousel-nav:hover {
+  color: rgba(0,0,0,0.8);
+}
+
+section#carousel {
+  padding-top: 10px;
+}
+
+.owl-carousel {
+  color: #222
+}
+
+.owl-dots {
+  position: absolute;
+  width: 100%;
+  /* put the dots at the top */
+  top: 10px;
+}
+.owl-dot {
+  /* Make the dots bigger */
+  zoom: 1.3;
+}
+
+.owl-theme .owl-dots .owl-dot span {
+  background: #e8b608;
+}
+
+.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
+  background: #b38b01;
+}
+
+#about p {
+    margin-bottom: 25px;
+}
+
+.sponsor-img {
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+@media (max-width: 769px) {
+  .sponsor-img {
+    margin: 0;
+  }
+}
+
+@media (max-width: 1500px) {
+  #map {
+    width: 400px !important;
+    height: 600px !important;
+  }
+}
+
+@media (max-width: 1200px) {
+  #map {
+    width: 100% !important;
+    height: 600px !important;
+    margin-top: 75px;
+  }
+}
+
+
+
+#map {
+    width: 100%;
+  height: 450px;
+}
+
+#faq a {
+    color: #fff;
 }

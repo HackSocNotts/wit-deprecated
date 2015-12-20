@@ -1,4 +1,3 @@
-<!-- * footer.php start * -->
 <footer class="text-center">
   <div id="base">
     <div class="container">
@@ -25,4 +24,3 @@
       </ul>
     </div>
 </footer>
-<!-- = footer.php end = -->

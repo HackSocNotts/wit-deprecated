@@ -23,7 +23,7 @@
 
       <div class="<?php echo $class; ?>">
         <p class="highlight"><strong>Where is the Women In Tech day held?</strong></p>
-        <p class="text-muted">It will be held at the University of Nottingham's Jubilee Campus. It will be based in the Exchange building and the School of Computer science. </p> 
+        <p class="text-muted">It will be held at the University of Nottingham's Jubilee Campus. It will be based in the Exchange building and the School of Computer science. </p>
       </div>
     </div>
 
@@ -34,16 +34,17 @@
       </div>
 
       <div class="<?php echo $class; ?>">
-        <p class="highlight"><strong>What workshops can I take part in?</strong></p>
-        <p class="text-muted">Last year we had Workshops and talks given by Capital One, Code Club, Impression, Uni of Nottingham Careers, MakeSense and more. </p>
+        <p class="highlight"><strong>Is there a code of conduct?</strong></p>
+        <p class="text-muted">Yes. We are dedicated to providing a fun, harassment-free experience for everyone. We expect all of our attendees, sponsors, volunteers, and staff to be respectful and considerate of others. They are all required to agree with this <a href="http://confcodeofconduct.com/" target="_blank">code of conduct.</a></p>
       </div>
+
 
       <div class="<?php echo $class; ?>">
         <p class="highlight"><strong>Which companies will be there?</strong></p>
         <p class="text-muted">Women in Technology 2016 is brought to you by Capital One, with additional sponsorship from Intel and more companies to be announced!</p>
       </div>
 
-      
+
     </div>
 
     <div class="row">
@@ -53,9 +54,10 @@
       </div>
 
       <div class="<?php echo $class; ?>">
-        <p class="highlight"><strong>Is there a code of conduct?</strong></p>
-        <p class="text-muted">Yes. We are dedicated to providing a fun, harassment-free experience for everyone. We expect all of our attendees, sponsors, volunteers, and staff to be respectful and considerate of others. They are all required to agree with this <a href="http://confcodeofconduct.com/" target="_blank">code of conduct.</a></p>
+        <p class="highlight"><strong>What workshops can I take part in?</strong></p>
+        <p class="text-muted">Last year we had Workshops and talks given by Capital One, Code Club, Impression, Uni of Nottingham Careers, MakeSense and more. </p>
       </div>
+
 
     </div> <!-- Close grid -->
 

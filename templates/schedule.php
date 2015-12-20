@@ -1,5 +1,3 @@
-<!-- * schedule.php start * -->
-<!-- Schedule Section -->
 <section id="schedule">
   <div class="container">
     <div class="row">
@@ -45,7 +43,7 @@
         </div>
 
         <div class="text-center">
-          <h4>CAKE DROP & NETWORKING</h4>
+          <h4>CAKE DROP &amp; NETWORKING</h4>
         </div>
 
         <div class="row">
@@ -55,12 +53,8 @@
             </div>
           </div>
           <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
-            <p>Workshops & networking</p>
+            <p>Workshops &amp; networking</p>
           </div>
-        </div>
-
-        <div class="text-center">
-          <h4>Refreshments</h4>
         </div>
 
         <div class="row">
@@ -76,9 +70,19 @@
       </div>
       <div class="col-lg-4 col-lg-offset-1">
         <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDBmbxXmi_WiX322tfOyGRaa3hw4vGDS7A"></script>
+        <?php
+          /**
+           * PHP function to see if user is on a mobile
+           * @return boolean True if user is on a mobile, false if not.
+           */
+          function isMobile() {
+            return preg_match("/(android|avantgo|blackberry|bolt|boost|cricket|docomo|fone|hiptop|mini|mobi|palm|phone|pie|tablet|up\.browser|up\.link|webos|wos)/i", $_SERVER["HTTP_USER_AGENT"]);
+          }
+        ?>
         <script>
         function initialize() {
           var mapOptions = {center: { lat: 52.951659, lng: -1.186477}, zoom: 15,
+           <?php echo(isMobile()) ? 'draggable: false,' : ''; ?>
           panControl: false, zoomControl: true, mapTypeControl: true, scaleControl: false, streetViewControl: false, overviewMapControl: false,
           styles: [{"featureType":"water","stylers":[{"visibility":"on"},{"color":"#acbcc9"}]},{"featureType":"landscape","stylers":[{"color":"#f2e5d4"}]},{"featureType":"road.highway","elementType":"geometry","stylers":[{"color":"#c5c6c6"}]},{"featureType":"road.arterial","elementType":"geometry","stylers":[{"color":"#e4d7c6"}]},{"featureType":"road.local","elementType":"geometry","stylers":[{"color":"#fbfaf7"}]},{"featureType":"poi.park","elementType":"geometry","stylers":[{"color":"#c5dac6"}]},{"featureType":"administrative","stylers":[{"visibility":"on"},{"lightness":33}]},{"featureType":"road"},{"featureType":"poi.park","elementType":"labels","stylers":[{"visibility":"on"},{"lightness":20}]},{},{"featureType":"road","stylers":[{"lightness":20}]}]
         };
@@ -104,67 +108,5 @@
   </div>
 </div>
 
-<!--<div class="container">
-  <center>
-     <h3>Workshops</h3>
-  </center>
-  <div class="row">
-    <div class="text-centre">
-     
-      <div class="col-md-2">
-        <p><strong>13:30 - 14:15</strong></p>
-      </div>
-      <div class="col-md-3">
-        <p>Intro to Programming - <strong>Code Club</strong></p>
-      </div>
-      <div class="col-md-3">
-        <p>Tackling Technical Interviews - <strong>Bloomberg</strong></p>
-      </div>
-      <div class="col-md-3">
-        <p>SEO and Digital Marketing - <strong>Impression</strong></p>
-      </div>
-    </div>
-  </div>
-  <div class="row">
-    <div class="text-centre">
-      <div class="col-md-2">
-        <p><strong>14:30 - 15:15</strong></p>
-      </div>
-      <div class="col-md-3">
-        <p>How to be a Photoshop Pro - <strong>CompSoc</strong></p>
-      </div>
-      <div class="col-md-3">
-        <p>Ethical Hacking in 10 - <strong>CapitalOne</strong></p>
-      </div>
-      <div class="col-md-3">
-        <p>Hold-Up - <strong>MakeSense</strong></p>
-      </div>
-    </div>
-  </div>
-  <div class="row">
-    <div class="text-centre">
-      <div class="col-md-2">
-        <p><strong>15:30 - 16:15</strong></p>
-      </div>
-      <div class="col-md-3">
-        <p>What the API? - <strong>HackSoc</strong></p>
-      </div>
-      <div class="col-md-3">
-        <p>The Careers Talk - <strong>UoN Careers</strong></p>
-      </div>
-      <div class="col-md-3">
-        <p>Pi-Top Hardware Workshop - <strong>Pi-Top</strong></p>
-      </div>
-    </div>
-  </div>
-</div>
-<div class="text-center">
-  <h3>Here's a PDF version of Saturday's <a class="booklet" href="https://www.dropbox.com/s/k7wkq8gkfi16n67/WitLeaflet.pdf?dl=0">booklet</a></h3>
-</div> --!>
-
-
-</body>
-</html>
-
 </section>
-<!-- = schedule.php end = -->
+

@@ -51,12 +51,10 @@
   <!-- Bootstrap Core CSS - Uses Bootswatch Flatly Theme: http://bootswatch.com/flatly/ -->
   <link href="css/bootstrap.css" rel="stylesheet">
 
-  <!-- Carousel -->
+  <!-- Carousel CSS -->
   <link href="css/owl-carousel.css" rel="stylesheet">
-  <link href="css/owl-carousel-theme.css" rel="stylesheet">
 
-  <!-- Custom CSS -->
-  <link href="css/harrysLessCompiled.css" rel="stylesheet">
+  <!-- Main CSS -->
   <link href="css/style.css" rel="stylesheet">
 
   <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -91,21 +89,11 @@
   <!-- jQuery Version 1.11.1 -->
   <script src="js/jquery-1.11.1.min.js"></script>
 
-  <!-- Bootstrap Core JavaScript -->
-  <script src="js/bootstrap.min.js"></script>
-
-  <!-- jquery smooth link moving -->
-  <script src="js/jquery-smoothscroll.min.js"></script>
-
   <!-- Carousel js -->
   <script src="js/owl-carousel.min.js"></script>
 
   <!-- All main js -->
   <script src="js/app.js"></script>
-
-  <!-- Contact Form JavaScript -->
-  <!-- <script src="js/jqBootstrapValidation.js"></script> -->
-  <!-- <script src="js/contact_me.js"></script> -->
 
 </body>
 </html>

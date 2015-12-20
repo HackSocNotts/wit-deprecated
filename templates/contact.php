@@ -1,4 +1,3 @@
-<!-- * contact.php start * -->
 <!-- Contact Section -->
 <section id="contact">
   <div class="container">
@@ -53,4 +52,3 @@
     </div>
   </div>
 </section>
-<!-- = contact.php end = -->

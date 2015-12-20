@@ -1,4 +1,3 @@
-<!-- * nosponsors.php start * -->
 <section id="sponsors">
   <div class="container">
 <!-- SPONSORS -->
@@ -13,7 +12,7 @@
     <h4>If you're interested in becoming a sponsor, contact us <a class="email-text" href="mailto:psxad2@nottingham.ac.uk">here</a>.</h4>
     </div>
 
-<?php $classes = "sponsor-img col-lg-2 col-md-2 col-sm-3 col-xs-6"; ?>
+<?php $classes = "sponsor-img col-lg-3 col-md-4 col-sm-4 col-xs-6"; ?>
 
     <div class="row">
       <div class="<?php echo $classes; ?>">
@@ -75,4 +74,3 @@
 
 </div>
 </section>
-<!-- = nosponsors.php end = -->

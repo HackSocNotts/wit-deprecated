@@ -21,9 +21,6 @@
         <li>
           <a class="page-scroll" href="#faq">Faq</a>
         </li>
-        <!-- <li>
-          <a class="page-scroll" href="#contact">Contact</a>
-        </li> -->
       </ul>
     </div>
   </div>

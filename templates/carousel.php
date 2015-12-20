@@ -56,7 +56,7 @@
       </div>
       <a class="carousel-link"><img src="img/julie.jpg" ></a>
       <div class="carousel-detail">
-        <h5 class="text-muted text-center">Lecturer, Professional Geek and Soprano Cornet Player</h5>
+        <h5 class="text-muted text-center">Lecturer, Professional Geek &amp; Cornet Player</h5>
         <p>Julie is a 'Geordie on tour', working as a <a href="http://www.cs.nott.ac.uk/~jqg/Home.html">lecturer in Computer Science</a> at the University of Nottingham. Her research involves the creation of 'artificial immune systems' to fight computer viruses and the use of technology in understanding human emotions. This has included the analysis of how people behave on rollercoasters, meaning that she rides rollercoasters in the name of science. When she is not playing with computers (as her Mum calls it), Julie plays in a local brass band and is a committed musical performer.</p>
       </div>
     </div>
@@ -70,17 +70,4 @@
         <p>Ivette Fuentes is an Associate Professor at the School of Mathematical Sciences (University of Nottingham). She leads a research group that aims at developing the new generation of quantum technologies by exploiting relativistic effects. She obtained her PhD from Imperial College and her research experience includes a fellowship at the Perimeter Institute, Glasstone and Junior Research Fellowships at Oxford and a Humboldt Fellowship at TU Berlin.</p>
        </div>
     </div>
- <!-- About Section     <div class="carousel-item">
-      <div class="carousel-title text-center">
-        <h3>Ivette Fuentes </h3>
-      </div>
-      <a class="carousel-link">
-        <img src="img/ivette.jpg" >
-      </a>
-      <div class="carousel-detail">
-        <h5 class="text-muted text-center">yvette </h5>
-        <p>ivette</p>
-       </div>
-  </div>
-  -->
 </section>

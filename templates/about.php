@@ -1,4 +1,3 @@
-<!-- * about.php start * -->
 <!-- About Section -->
 <section class="success" id="about">
   <div class="container">
@@ -17,11 +16,10 @@
 
       <div class="col-lg-4">
 
-	<p>There will be three parts to the day; talks from some of the most fascinating women within the tech industry, workshops; from hands on programming to smaller talks, and opportunities to network with some the best companies around.</p>
+	<p>There will be three parts to the day; talks from some of the most fascinating women within the tech industry, workshops; from hands on programming to smaller talks, and opportunities to network with some of the best companies around.</p>
 	<p> HackSoc and the University of Nottingham have teamed up to inspire and encourage students to pursue technology as a hobby or as a career.</p>
 	<p>We want to get students excited by their potential.</p>
       </div>
     </div>
   </div>
 </section>
-<!-- = about.php end = -->

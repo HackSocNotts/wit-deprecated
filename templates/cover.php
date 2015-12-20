@@ -1,4 +1,3 @@
-
 <!-- Header -->
 <header>
 <div class="bg">

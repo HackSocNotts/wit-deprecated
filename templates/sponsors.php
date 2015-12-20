@@ -1,4 +1,3 @@
-<!-- * sponsors.php start * -->
 <section id="sponsors">
   <div class="container">
 <!-- SPONSORS -->
@@ -37,4 +36,3 @@
     </div>
   </div>
 </section>
-<!-- = sponsors.php end = -->
