@@ -4,12 +4,13 @@
 <!-- SPONSORS -->
     <div class="row">
       <div class="col-lg-12 text-center">
-        <h2>Sponsor Us</h2>
+        <h2>Last year's Sponsors</h2>
         <hr class="star-primary">
       </div>
     </div>
-    <div class="text-center">
-        <h3>Become part of our team</h3></br>
+
+    </br><div class="text-center">
+    <h4>If you're interested in becoming a sponsor, contact us <a class="email-text" href="mailto:psxad2@nottingham.ac.uk">here</a>.</h4>
     </div>
 
 <?php $classes = "sponsor-img col-lg-2 col-md-2 col-sm-3 col-xs-6"; ?>
@@ -70,9 +71,6 @@
         <a href="http://pi-top.com/"><img src="img/sponsors/pi-top.jpg" /></a>
       </div>
     </div>
-        </br><div class="text-center">
-        <h4>If you're interested in becoming a sponsor, contact us <a class="email-text" href="mailto:psxad2@nottingham.ac.uk">here</a>.</h4>
-        </div>
     </div>
 
 </div>

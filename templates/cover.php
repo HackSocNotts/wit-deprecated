@@ -1,4 +1,4 @@
-<!-- * header.php start * -->
+
 <!-- Header -->
 <header>
 <div class="bg">
@@ -21,10 +21,9 @@
           <span class="tag">02</span>/
           <span class="tag">2016</span>
         </div>
-        <a class="btn btn-register" href="#register">+ Register</a>
+        <a class="btn btn-register" href="#register">Register</a>
       </div>
     </div>
   </div>
  </div>
 </header>
-<!-- = header.php end = -->

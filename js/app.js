@@ -41,7 +41,7 @@ var fit = function(){
 
 
 // Would be good if when you click on the card either side that you can see
-// it goes to the next one, so we can removed the arrows :)
+// it goes to the next one, so we can remove the arrows :)
 var owl = {};
 $(document).ready(function(){
   fit();
@@ -53,8 +53,8 @@ $(document).ready(function(){
     loop: true,
     margin: 50,
     dots: true,
-    autoplaySpeed: true,
-    autoplay: true,
+    autoplaySpeed: false,
+    autoplay: false,
     animateOut: 'fadeOut', // Note, want a fade out, fade in, in autoplay
     onInitialized: fit,
     onResized: fit,

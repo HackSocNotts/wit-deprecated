@@ -50,9 +50,10 @@
 
   <!-- Bootstrap Core CSS - Uses Bootswatch Flatly Theme: http://bootswatch.com/flatly/ -->
   <link href="css/bootstrap.css" rel="stylesheet">
+
   <!-- Carousel -->
-  <link href="css/owl-carousel.css" rel="stylesheet"/>
-  <link href="css/owl-carousel-theme.css" rel="stylesheet"/>
+  <link href="css/owl-carousel.css" rel="stylesheet">
+  <link href="css/owl-carousel-theme.css" rel="stylesheet">
 
   <!-- Custom CSS -->
   <link href="css/harrysLessCompiled.css" rel="stylesheet">
@@ -71,11 +72,7 @@
 
   <?php include 'templates/navbar.php';?>
 
-  <?php include 'templates/header.php';?>
-
-  <?php include 'templates/carousel.php';?>
-
-  <?php include 'templates/register.php';?>
+  <?php include 'templates/cover.php';?>
 
   <?php include 'templates/about.php';?>
 
@@ -83,13 +80,11 @@
 
   <?php include 'templates/faq.php';?>
 
-  <?php include 'templates/nosponsors.php';?>
-<!--
-  php include 'templates/sponsors.php';
--->
+  <?php include 'templates/register.php';?>
 
-  <!-- Contact form, not yet used -->
-  <?php // include 'templates/contact.php'; ?>
+  <?php include 'templates/carousel.php';?>
+
+  <?php include 'templates/old_sponsors.php'; ?>
 
   <?php include 'templates/footer.php';?>
 
@@ -113,5 +108,4 @@
   <!-- <script src="js/contact_me.js"></script> -->
 
 </body>
-
 </html>
