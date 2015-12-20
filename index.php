@@ -2,11 +2,10 @@
 <html lang="en-gb">
 
 <!--
--
-- Why are you reading the source,
-- go apply already! You are worth it!
-- ~harrymt
--
+  -
+  - If you are reading the source code,
+  - you definitely should come!
+  -
   -->
 <head>
   <!-- Character encoding -->
@@ -45,7 +44,7 @@
   only 18% are female. This event strives to celebrate the individuals behind the figures,
   and share their fascinating life experiences in the tech industry." />
 
-  <link rel="shortcut icon" sizes="64x64" href="favicon.ico">
+  <link rel="shortcut icon" href="favicon.ico">
 
   <title>Women in Tech</title>
 

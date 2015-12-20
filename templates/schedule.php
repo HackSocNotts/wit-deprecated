@@ -17,9 +17,9 @@
         <div class="row">
           <div class="text-right">
             <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
-              <p>09:00 - 09:30</p>
-              <p>09:30 - 09:50</p>
-              <p>09:50 - 11:10</p>
+              <p>09:30 - 10:00</p>
+              <p>10:15 - 10:30</p>
+              <p>10:30 - 12:30</p>
             </div>
           </div>
           <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
@@ -30,13 +30,13 @@
         </div>
 
         <div class="text-center">
-          <h4>Tea Break</h4>
+          <h4>LUNCH</h4>
         </div>
 
         <div class="row">
           <div class="text-right">
             <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
-              <p>11:30 - 12:50</p>
+              <p>13:30 - 14:15</p>
             </div>
           </div>
           <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
@@ -45,17 +45,17 @@
         </div>
 
         <div class="text-center">
-          <h4>Lunch</h4>
+          <h4>CAKE DROP & NETWORKING</h4>
         </div>
 
         <div class="row">
           <div class="text-right">
             <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
-              <p>13:30 - 16:30</p>
+              <p>15:00 - 18:00</p>
             </div>
           </div>
           <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
-            <p>Workshops and networking</p>
+            <p>Workshops & networking</p>
           </div>
         </div>
 
@@ -66,7 +66,7 @@
         <div class="row">
           <div class="text-right">
             <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
-              <p>16:45 - 17:00</p>
+              <p>18:00 - 18:15</p>
             </div>
           </div>
           <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
@@ -104,7 +104,7 @@
   </div>
 </div>
 
-<div class="container">
+<!--<div class="container">
   <center>
      <h3>Workshops</h3>
   </center>
@@ -160,7 +160,7 @@
 </div>
 <div class="text-center">
   <h3>Here's a PDF version of Saturday's <a class="booklet" href="https://www.dropbox.com/s/k7wkq8gkfi16n67/WitLeaflet.pdf?dl=0">booklet</a></h3>
-</div>
+</div> --!>
 
 
 </body>

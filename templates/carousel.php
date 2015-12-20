@@ -2,7 +2,7 @@
   <div class="container">
     <div class="row">
       <div class="col-lg-12 text-center">
-        <h2 class="speakers-text">Speakers</h2>
+        <h2 class="speakers-text">Previous Women in Tech Speakers</h2>
         <hr class="star-light">
       </div>
     </div>

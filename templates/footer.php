@@ -21,7 +21,7 @@
       <br>for <a class="hacksoc" href="http://www.hacksocnotts.co.uk/"><span class="hacksoc_green">ha</span>c<span class="hacksoc_green">kS</span>oc</a>
       </p>
       <ul class="social">
-        <li class="facebook"><a href="https://www.facebook.com/events/778633292200312/?fref=ts" target="_blank">Facebook</a></li>
+        <li class="facebook"><a href="https://www.facebook.com/witnotts" target="_blank">Facebook</a></li>
         <li class="twitter"><a href="https://twitter.com/inspireWIT" target="_blank">Twitter</a></li>
       </ul>
     </div>

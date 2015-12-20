@@ -4,7 +4,7 @@
 <!-- SPONSORS -->
     <div class="row">
       <div class="col-lg-12 text-center">
-        <h2>Major Sponsors</h2>
+        <h2>Women in Tech is brought to you by</h2>
         <hr class="star-primary">
       </div>
     </div>
@@ -21,7 +21,7 @@
 
     <div class="row">
       <div class="col-lg-12 text-center">
-        <h3>Minor Sponsors</h3>
+        <h3>Our Sponsors</h3>
         <hr class="star-primary">
       </div>
     </div>
