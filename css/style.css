@@ -97,6 +97,11 @@ hr.star-primary:after {
 .register-jumbotron {
   padding-left: 5%;
   padding-right: 5%;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+.register-jumbotron h3 {
+  padding-bottom: 20px;
 }
 .bg {
   background-image: url('../img/bg_back_.jpg');
