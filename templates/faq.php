@@ -23,7 +23,7 @@
 
       <div class="<?php echo $class; ?>">
         <p class="highlight"><strong>Where is the Women In Tech day held?</strong></p>
-        <p class="text-muted">It will be held at the University of Nottingham's Jubilee Campus. It will be based in the Exchange building and the School of Computer science. </p>
+        <p class="text-muted">It will be held at the University of Nottingham's Jubilee Campus. It will be based in the Business School South building. </p>
       </div>
     </div>
 
