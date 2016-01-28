@@ -5,12 +5,12 @@ Created by HackSoc http://www.hacksocnotts.co.uk/
 
 Hosted at http://www.inspirewit.com/
 
-## Editing CSS or LESS
 
-The CSS is post-processed using LESS. A task runner will be used in order to support this automatically, but for now, in order to adjust the stylings, the .less files will need to be manually compiled into .css files.
+## How to Build
 
-- Edit `style.less`
-- To compile the LESS into CSS run: `lessc less/style.less css/style.css`, [more info can be found here](http://lesscss.org/usage/#command-line-usage-command-line-usage)
+- Uses Grunt
+- Run `sudo npm install` in main directory
+- Run `grunt watch` to watch folders so that SCSS compiles to CSS & JS combines, or just run `grunt` to build all.
 
 
 ## Deploying changes
@@ -26,6 +26,7 @@ Once confirmed that the changes are good, they can be sent live via `bundle exec
 *NOTE*: In order to push to the server, you will need to be given SSH access via @jamietanna.
 
 ## TODO
-- [ ] Move to GruntJS
+- [x] Move to GruntJS
+- [ ] Add grunt task running server side
 - [ ] Remove Carousel
 - [ ] Add promotional photos from last year, found on [HackSoc 2014/15 drive](https://drive.google.com/open?id=0B0BMWwh-HrjhOG9SbGJhRTY3X1k)
