@@ -28,5 +28,9 @@ Once confirmed that the changes are good, they can be sent live via `bundle exec
 ## TODO
 - [x] Move to GruntJS
 - [ ] Add grunt task running server side
+- [ ] Fix mobile dropdown menuy
+- [ ] Tidy up .scss files
+- [ ] Add Bourbon to ensure cross browser support
+- [ ] Move from PHP to static html
 - [ ] Remove Carousel
 - [ ] Add promotional photos from last year, found on [HackSoc 2014/15 drive](https://drive.google.com/open?id=0B0BMWwh-HrjhOG9SbGJhRTY3X1k)
