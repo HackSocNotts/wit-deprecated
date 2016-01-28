@@ -1,0 +1,30 @@
+{
+  "name": "Women in tech 2016 website",
+  "version": "0.0.1",
+  "description": "Website for inspirewit.com",
+  "main": "Gruntfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/HackSocNotts/wit.git"
+  },
+  "author": "Harry Mumford-Turner",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HackSocNotts/wit/issues"
+  },
+  "devDependencies": {
+    "grunt-contrib-concat": "^0.5.1",
+    "grunt-contrib-sass": "^0.9.2",
+    "grunt-contrib-uglify": "^0.9.1",
+    "grunt-contrib-watch": "^0.6.1",
+    "grunt-serve": "^0.1.6",
+    "grunt-cli": "^0.1.13"
+  },
+  "dependencies": {
+    "express": "^4.13.3",
+    "grunt": "^0.4.5"
+  }
+}

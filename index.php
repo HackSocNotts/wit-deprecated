@@ -48,20 +48,13 @@
 
   <title>Women in Tech</title>
 
-  <!-- Bootstrap Core CSS - Uses Bootswatch Flatly Theme: http://bootswatch.com/flatly/ -->
-  <link href="css/bootstrap.css" rel="stylesheet">
-
-  <!-- Carousel CSS -->
-  <link href="css/owl-carousel.css" rel="stylesheet">
-
-  <!-- Main CSS -->
   <link href="css/style.css" rel="stylesheet">
 
   <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
   <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
   <!--[if lt IE 9]>
-    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <script src="//oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="//oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
   <![endif]-->
 
 </head>
@@ -86,14 +79,7 @@
 
   <?php include 'templates/footer.php';?>
 
-  <!-- jQuery Version 1.11.1 -->
-  <script src="js/jquery-1.11.1.min.js"></script>
-
-  <!-- Carousel js -->
-  <script src="js/owl-carousel.min.js"></script>
-
-  <!-- All main js -->
-  <script src="js/app.js"></script>
+  <script src="main.min.js"></script>
 
 </body>
 </html>

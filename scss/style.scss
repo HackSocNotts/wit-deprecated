@@ -1,14 +1,20 @@
+
+// Bootstrap Core CSS - Uses Bootswatch Flatly Theme: http://bootswatch.com/flatly/
+@import 'bootstrap';
+
+@import 'owl-carousel';
+
 //
 // VARIABLES
 //
-@brand-primary: #AAA; // default #2C3E50
-@brand-success: #222; // #18BC9C
-@brand-logo-yel: #FFED00;
-@brand-logo-ora: #F18700;
-@brand-logo-gre: #808080;
+$brand-primary: #AAA; // default #2C3E50
+$brand-success: #222; // #18BC9C
+$brand-logo-yel: #FFED00;
+$brand-logo-ora: #F18700;
+$brand-logo-gre: #808080;
 
 // Font : Caviar Dreams bold
-@gray-lighter: lighten(#000, 93.5%); // #000, 93.5%
+$gray-lighter: lighten(#000, 93.5%); // #000, 93.5%
 
 
 
@@ -21,28 +27,28 @@
 // BUTTONS
 // (This is used very little)
 //
-.button-variant(@color; @background; @border) {
-  color: @color;
-  background-color: @background;// Variables
+@mixin button-variant($color, $background, $border) {
+  color: $color;
+  background-color: $background;// Variables
 
-@brand-primary: #AAA; // default #2C3E50
-@brand-success: #222; // #18BC9C
-@brand-logo-yel: #FFED00;
-@brand-logo-ora: #F18700;
-@brand-logo-gre: #808080;
-// Font : Caviar Dreams bold
-@gray-lighter: lighten(#000, 93.5%); // #000, 93.5%
+  $brand-primary: #AAA; // default #2C3E50
+  $brand-success: #222; // #18BC9C
+  $brand-logo-yel: #FFED00;
+  $brand-logo-ora: #F18700;
+  $brand-logo-gre: #808080;
+  // Font : Caviar Dreams bold
+  $gray-lighter: lighten(#000, 93.5%); // #000, 93.5%
 
-  border-color: @border;
+  border-color: $border;
 
   &:hover,
   &:focus,
   &:active,
   &.active,
   .open .dropdown-toggle& {
-    color: @color;
-    background-color: darken(@background, 10%);
-        border-color: darken(@border, 12%);
+    color: $color;
+    background-color: darken($background, 10%);
+        border-color: darken($border, 12%);
   }
   &:active,
   &.active,
@@ -57,14 +63,14 @@
     &:focus,
     &:active,
     &.active {
-      background-color: @background;
-      border-color: @border;
+      background-color: $background;
+      border-color: $border;
     }
   }
 
   .badge {
-    color: @background;
-    background-color: @color;
+    color: $background;
+    background-color: $color;
   }
 }
 
@@ -102,7 +108,7 @@ p {
 }
 
 #navbar-collapse {
-  background-color: @brand-success;
+  background-color: $brand-success;
   border-bottom: solid 1px #333;
 }
 
@@ -123,7 +129,7 @@ a:hover,
 a:focus,
 a:active,
 a.active {
-	color: @brand-success;
+	color: $brand-success;
 	outline: none;
 }
 
@@ -159,17 +165,17 @@ hr.star-light {
 }
 
 hr.star-light:after {
-    background-color: @brand-success;
+    background-color: $brand-success;
     color: white;
 }
 
 hr.star-primary {
-    border-color: @brand-primary;
+    border-color: $brand-primary;
 }
 
 hr.star-primary:after {
     background-color: white;
-    color: @brand-primary;
+    color: $brand-primary;
 }
 
 .btn {
@@ -223,7 +229,7 @@ hr.star-primary:after {
 
 header {
 	text-align: center;
-	background: @brand-success;
+	background: $brand-success;
 	color: white;
 
 
@@ -289,7 +295,7 @@ header {
     margin-top: 10px;
   }
   .btn:hover {
-    border: 2px solid @brand-logo-yel;
+    border: 2px solid $brand-logo-yel;
   }
 }
 
@@ -401,7 +407,7 @@ section {
 }
 
 section.success {
-	background: @brand-success;
+	background: $brand-success;
 	color: white;
 }
 
@@ -437,7 +443,7 @@ section.success {
 	&:focus,
 	&:active,
 	&.active {
-		color: @brand-success;
+		color: $brand-success;
 		background: white;
 		border: solid 2px white;
 	}
@@ -447,7 +453,7 @@ section.success {
     position: relative;
     margin-bottom: 0;
     padding-bottom: 0.5em;
-    border-bottom: 1px solid @gray-lighter;
+    border-bottom: 1px solid $gray-lighter;
     input,
     textarea {
 	    z-index: 1;
@@ -477,9 +483,9 @@ section.success {
 	    -ms-transition: top 0.3s ease,opacity 0.3s ease;
 	    transition: top 0.3s ease,opacity 0.3s ease;
     }
-    &::not(:first-child) {
+    &:not(:first-child) {
 	    padding-left: 14px;
-	    border-left: 1px solid @gray-lighter;
+	    border-left: 1px solid $gray-lighter;
     }
 }
 
@@ -492,16 +498,16 @@ section.success {
 
 .floating-label-form-group-with-focus {
 	label {
-	    color: @brand-success;
+	    color: $brand-success;
 	}
 }
 
 form .row:first-child .floating-label-form-group {
-    border-top: 1px solid @gray-lighter;
+    border-top: 1px solid $gray-lighter;
 }
 
 #base {
-  background: @brand-primary;
+  background: $brand-primary;
   .container {
     padding: 120px 0 20px;
     color: #fff;
@@ -513,7 +519,7 @@ form .row:first-child .floating-label-form-group {
       margin-top: 100px;
       font-size: 90%;
       a {
-        color: @brand-logo-yel;
+        color: $brand-logo-yel;
       }
     }
     .hacksoc {

@@ -1,3 +1,6 @@
-config.codekit
-.codekit-cache
+*.codekit
+*.scssc
 .DS_Store
+css/.sass-cache
+node_modules
+npm-debug.log
