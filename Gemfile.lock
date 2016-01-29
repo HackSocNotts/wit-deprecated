@@ -1,3 +1,10 @@
+GIT
+  remote: git://github.com/roots/capistrano-grunt.git
+  revision: bf87034ad9345d8653070bdcab62e8660593787c
+  specs:
+    capistrano-grunt (0.0.4)
+      capistrano (>= 3.0.0.pre)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -8,6 +15,8 @@ GEM
     capistrano-bundler (1.1.4)
       capistrano (~> 3.1)
       sshkit (~> 1.2)
+    capistrano-npm (1.0.1)
+      capistrano (>= 3.0.0)
     capistrano-rvm (0.1.2)
       capistrano (~> 3.0)
       sshkit (~> 1.2)
@@ -26,6 +35,8 @@ PLATFORMS
 DEPENDENCIES
   capistrano
   capistrano-bundler
+  capistrano-grunt!
+  capistrano-npm
   capistrano-rvm
 
 BUNDLED WITH

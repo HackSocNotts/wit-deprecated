@@ -4,6 +4,10 @@ require 'capistrano/setup'
 # Include default deployment tasks
 require 'capistrano/deploy'
 
+# Add Grunt and NPM support to Cap
+require 'capistrano/grunt'
+require 'capistrano/npm'
+
 # Include tasks from other gems included in your Gemfile
 #
 # For documentation on these, see for example:
