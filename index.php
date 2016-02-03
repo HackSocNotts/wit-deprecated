@@ -65,15 +65,17 @@
 
   <?php include 'templates/cover.php';?>
 
+  <?php include 'templates/speakers.php';?>
+
   <?php include 'templates/about.php';?>
 
   <?php include 'templates/schedule.php';?>
 
-  <?php include 'templates/faq.php';?>
-
   <?php include 'templates/register.php';?>
 
-  <?php include 'templates/carousel.php';?>
+  <?php // Need to add // include 'templates/sponsors.php'; ?>
+
+  <?php include 'templates/faq.php';?>
 
   <?php include 'templates/old_sponsors.php'; ?>
 

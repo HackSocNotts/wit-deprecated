@@ -2,8 +2,6 @@
 // Bootstrap Core CSS - Uses Bootswatch Flatly Theme: http://bootswatch.com/flatly/
 @import 'bootstrap';
 
-@import 'owl-carousel';
-
 @import url(//fonts.googleapis.com/css?family=Montserrat:400,700|Lato:400,700,400italic,700italic|Roboto+Slab:400,100,300,700);
 
 
@@ -330,6 +328,7 @@ header .btn-register {
   transition: color 0.1s ease,
               border 0.1s ease;
 }
+
 header .btn-register:hover {
   color: white;
 }
@@ -341,72 +340,66 @@ header .btn-register:hover {
 
 
 
+//
+// Speakers
+//
+.list {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0;
+}
 
-//
-// Carousel
-//
-.carousel-item {
-  margin-top: 50px;
+.list-item {
+  display: flex;
+  padding: 0.5em;
+  width: 100%;
+
+  img {
+    width: 100%;
+  }
+}
+
+@media all and (min-width: 40em) {
+  .list-item {
+    width: 50%;
+  }
+}
+
+@media all and (min-width: 60em) {
+  .list-item {
+    width: 33.33%;
+  }
+}
+
+.list-content {
   background-color: #fff;
-}
-
-.carousel-title {
-  padding: 1px;
-}
-
-.carousel-detail {
-  padding: 25px;
-  text-align: justify;
-}
-
-.carousel-link img {
+  display: flex;
+  flex-direction: column;
+  padding: 1em;
   width: 100%;
+
+  p {
+    font-size: 15px;
+    padding-top: 5px;
+    line-height: 1.4em;
+  }
+
+  h2 {
+    font-size: 30px;
+  }
+
+  h3 {
+    font-size: 15px;
+    font-weight: normal;
+    line-height: 1;
+    margin-top: 0;
+    text-transform: none;
+  }
 }
 
-.carousel-nav {
-  transition: color 1s ease;
-  /* color: rgba(0,0,0,0.5); */
-  /* text-shadow: 0px 0px 5px rgba(0,0,0,0.5); */
-  position: absolute;
-  margin-top: -10px;
-  margin-left: 30px;
-  z-index: 2;
-  font-size: 40px;
-  cursor: pointer;
+.list-content p {
+  flex: 1 0 auto;
 }
-
-.carousel-nav:hover {
-  color: rgba(0,0,0,0.8);
-}
-
-section#carousel {
-  padding-top: 10px;
-}
-
-.owl-carousel {
-  color: #222
-}
-
-.owl-dots {
-  position: absolute;
-  width: 100%;
-  /* put the dots at the top */
-  top: 10px;
-}
-.owl-dot {
-  /* Make the dots bigger */
-  zoom: 1.3;
-}
-
-.owl-theme .owl-dots .owl-dot span {
-  background: #e8b608;
-}
-
-.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
-  background: #b38b01;
-}
-
-
 
 
 
@@ -496,9 +489,11 @@ footer {
 section {
   padding: 60px 0;
 
-  h2 {
-    margin: 0;
-    font-size: 3em;
+  .row {
+    h2 {
+      margin: 0;
+      font-size: 3em;
+    }
   }
 }
 
