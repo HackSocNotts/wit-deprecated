@@ -44,7 +44,7 @@
   only 18% are female. This event strives to celebrate the individuals behind the figures,
   and share their fascinating life experiences in the tech industry." />
 
-  <link rel="shortcut icon" href="favicon.ico">
+  <link rel="icon" href="favicon.ico?v=2" type="image/x-icon" />
 
   <title>Women in Tech</title>
 
