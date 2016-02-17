@@ -67,17 +67,17 @@
 
   <?php include 'templates/speakers.php';?>
 
+  <?php include 'templates/workshops.php';?>
+
   <?php include 'templates/about.php';?>
 
   <?php include 'templates/schedule.php';?>
 
   <?php include 'templates/register.php';?>
 
-  <?php // Need to add // include 'templates/sponsors.php'; ?>
-
   <?php include 'templates/faq.php';?>
 
-  <?php include 'templates/old_sponsors.php'; ?>
+  <?php include 'templates/sponsors.php'; ?>
 
   <?php include 'templates/footer.php';?>
 

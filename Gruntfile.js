@@ -23,7 +23,6 @@ module.exports = function (grunt) {
       dist: {
         src: [
         'js/jquery-1.11.1.min.js',
-        'js/owl-carousel.min.js',
         'js/bootstrap.min.js',
         'js/app.js'], // In order of concat
         dest: 'main.min.js'

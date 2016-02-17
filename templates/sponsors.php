@@ -1,38 +1,66 @@
 <section id="sponsors">
   <div class="container">
-<!-- SPONSORS -->
+<!-- PARTNERS -->
     <div class="row">
       <div class="col-lg-12 text-center">
-        <h2>Women in Tech is brought to you by</h2>
+        <h2>Partners</h2>
         <hr class="star-primary">
       </div>
     </div>
 
-    <!-- MAJOR SPONSORS -->
-    <div class="row">
-      <div class="col-xs-6 sponsors-item">
-        <img src="img/sponsors/placeholder.png" class="img-responsive">
-      </div>
-<!--       <div class="col-xs-6 sponsors-item">
-        <img src="img/sponsors/[company logo].png" class="img-responsive">
-      </div> -->
+    </br>
+    <div class="text-center">
+      <h4>If you're interested in becoming a partner, contact us <a class="email-text" href="mailto:psxad2@nottingham.ac.uk">here</a>.</h4>
     </div>
 
+    <?php $classes = "sponsor-img col-lg-3 col-md-4 col-sm-4 col-xs-12"; ?>
+
     <div class="row">
-      <div class="col-lg-12 text-center">
-        <h3>Our Sponsors</h3>
-        <hr class="star-primary">
+      <div class="<?php echo $classes; ?>">
+        <a href="//www.su.nottingham.ac.uk/societies/society/Hack/">
+          <img src="img/sponsors/hacksoc.png" /></a>
       </div>
+      <div class="<?php echo $classes; ?>">
+        <a href="//bcs.org/bcswomen"><img src="img/sponsors/bcs-women.jpg" style="width: 300px;"/></a>
+      </div>
+      <div class="<?php echo $classes; ?>">
+        <a href="//mlh.io/"><img src="img/sponsors/mlh.png" style="width: 160px; height: 160px;"/></a>
+      </div>
+      <div class="<?php echo $classes; ?>">
+        <a href="//www.codeclub.org.uk/"><img src="img/sponsors/code-club.png" style="width: 200px;"/></a>
+      </div>
+      <div class="<?php echo $classes; ?>">
+        <a href="//www.capitalone.co.uk/web/index.jsf"><img src="img/sponsors/capital-one.png" style="width: 150px;" /></a>
+      </div>
+      <div class="<?php echo $classes; ?>">
+        <a href="//www.su.nottingham.ac.uk/societies/society/CivilEngineering/"><img src="img/sponsors/civsoc.png" style="width: 150px;" /></a>
+      </div>
+      <div class="<?php echo $classes; ?>">
+        <a href="//gov.uk/dstl"><img src="img/sponsors/dstl.jpeg"  style="width: 200px;"  /></a>
+      </div>
+      <div class="<?php echo $classes; ?>">
+        <a href="//ef.com"><img src="img/sponsors/ef.png" style="width: 150px;"/></a>
+      </div>
+      <div class="<?php echo $classes; ?>">
+        <a href="//nottinghack.org.uk/"><img src="img/sponsors/hackspace.png" style="width: 200px;" /></a>
+      </div>
+      <div class="<?php echo $classes; ?>">
+        <a href="//intel.com"><img src="img/sponsors/intel.png" /></a>
+      </div>
+      <div class="<?php echo $classes; ?>">
+        <a href="//www.su.nottingham.ac.uk/societies/society/PublicSpeaking/"><img src="img/sponsors/public-speaking.png" /></a>
+      </div>
+      <div class="<?php echo $classes; ?>">
+        <a href="//www.su.nottingham.ac.uk/societies/society/uon-feminists/"><img src="img/sponsors/uon-feminists.png" /></a>
+      </div>
+      <div class="<?php echo $classes; ?>">
+        <a href="//nottingham.ac.uk"><img src="img/sponsors/uon.png" style="width: 250px;"  /></a>
+      </div>
+      <div class="<?php echo $classes; ?>">
+        <a href="//ustwo.com/"><img src="img/sponsors/ustwo.jpeg" style="width: 150px;" /></a>
+      </div>
+    </div>
     </div>
 
-<!-- MINOR SPONSORS -->
-    <div class="row">
-      <div class="col-xs-3 sponsors-item">
-          <img src="img/sponsors/placeholder.png" class="img-responsive">
-      </div>
-<!--       <div class="col-xs-3 sponsors-item">
-          <img src="img/sponsors/[company logo].png" class="img-responsive">
-      </div> -->
-    </div>
-  </div>
+</div>
 </section>
