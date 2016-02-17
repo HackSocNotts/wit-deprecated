@@ -18,7 +18,7 @@
     <div class="row">
       <div class="<?php echo $classes; ?>">
         <a href="//www.su.nottingham.ac.uk/societies/society/Hack/">
-          <img src="img/sponsors/hacksoc.png" /></a>
+          <img src="img/sponsors/Hacksoc.png" /></a>
       </div>
       <div class="<?php echo $classes; ?>">
         <a href="//bcs.org/bcswomen"><img src="img/sponsors/bcs-women.jpg" style="width: 300px;"/></a>
