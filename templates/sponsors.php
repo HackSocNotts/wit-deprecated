@@ -16,6 +16,19 @@
     <?php $classes = "sponsor-img col-lg-3 col-md-4 col-sm-4 col-xs-12"; ?>
 
     <div class="row">
+      <div class="sponsor-img col-lg-12 col-md-12 col-sm-12">
+        <h3>Women in Tech 2016 is brought to you by</h3>
+      </div>
+
+
+      <div class="sponsor-img col-lg-8 col-lg-offset-2 col-md-8 col-md-offset-2 col-sm-8 col-sm-offset-2">
+        <a href="//www.capitalone.co.uk/web/index.jsf"><img src="img/sponsors/capital-one.png" width="500px"/></a>
+      </div>
+
+      <div class="sponsor-img col-lg-12 col-md-12 col-sm-12">
+        <h3>Our other partners include</h3>
+      </div>
+
       <div class="<?php echo $classes; ?>">
         <a href="//www.su.nottingham.ac.uk/societies/society/Hack/">
           <img src="img/sponsors/Hacksoc.png" /></a>
@@ -28,9 +41,6 @@
       </div>
       <div class="<?php echo $classes; ?>">
         <a href="//www.codeclub.org.uk/"><img src="img/sponsors/code-club.png" style="width: 200px;"/></a>
-      </div>
-      <div class="<?php echo $classes; ?>">
-        <a href="//www.capitalone.co.uk/web/index.jsf"><img src="img/sponsors/capital-one.png" style="width: 150px;" /></a>
       </div>
       <div class="<?php echo $classes; ?>">
         <a href="//www.su.nottingham.ac.uk/societies/society/CivilEngineering/"><img src="img/sponsors/civsoc.png" style="width: 150px;" /></a>
