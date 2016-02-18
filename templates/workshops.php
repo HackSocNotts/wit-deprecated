@@ -93,7 +93,7 @@ $workshopI->name = 'Innovating Tech';
   $workshopI->time = '17:00-17:45';
 
 $workshopJ = new Workshop();
-$workshopJ->name = 'IoTPong';
+$workshopJ->name = 'IoT Pong';
   $workshopJ->workshop_host = 'Houman';
   $workshopJ->company = 'Intel Software';
   $workshopJ->description = 'Learn about the Internet of Things using the Intel Edison to run a fun demo of pong. Participants will assemble, write and load part the code required to play a 2 player pong game using the Edison (a tiny Computer-on-module offered by Intel as a development system for Internet of Things and wearable devices). No prior knowledge of code required';
