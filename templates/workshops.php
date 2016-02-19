@@ -38,7 +38,7 @@ $workshopB->name = 'Sounding Out';
 
 $workshopC = new Workshop();
 $workshopC->name = 'What the Hack';
-  $workshopC->workshop_host = 'Zarah';
+  $workshopC->workshop_host = 'Zahra';
   $workshopC->company = 'MLH';
   $workshopC->location = 'Seminar Room A';
   $workshopC->description = "Major League Hacking is the student hackathon league. Each year, 75,000+ developers, designers, and makers attend 200+ official MLH hackathons in the United States, Canada, Mexico and Europe. Learn about what Hackathons are and how you can meet like-minded people, learn new things, and create cool technology. MLH EU started in Nottingham at HackNotts and are supporting WIT for the second year running.";
