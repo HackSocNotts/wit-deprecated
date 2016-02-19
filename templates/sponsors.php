@@ -13,7 +13,7 @@
       <h4>If you're interested in becoming a partner, contact us <a class="email-text" href="mailto:psxad2@nottingham.ac.uk">here</a>.</h4>
     </div>
 
-    <?php $classes = "sponsor-img col-lg-3 col-md-4 col-sm-4 col-xs-12"; ?>
+    <?php $classes = "sponsor-img col-lg-4 col-md-4 col-sm-4 col-xs-12"; ?>
 
     <div class="row">
       <div class="sponsor-img col-lg-12 col-md-12 col-sm-12">
@@ -32,16 +32,16 @@
         <a href="//intel.com"><img src="img/sponsors/intel.png" /></a>
       </div>
       <div class="<?php echo $classes; ?>">
-        <a href="//ustwo.com/"><img src="img/sponsors/ustwo.jpeg" style="width: 150px;" /></a>
+        <a href="//ustwo.com/"><img src="img/sponsors/ustwo.jpeg"  /></a>
       </div>
       <div class="<?php echo $classes; ?>">
-        <a href="//ef.com"><img src="img/sponsors/ef.png" style="width: 150px;"/></a>
+        <a href="//ef.com"><img src="img/sponsors/ef.png" /></a>
       </div>
       <div class="<?php echo $classes; ?>">
-        <a href="//mlh.io/"><img src="img/sponsors/mlh.png" style="width: 160px; height: 160px;"/></a>
+        <a href="//mlh.io/"><img src="img/sponsors/mlh.png" /></a>
       </div>
       <div class="<?php echo $classes; ?>">
-        <a href="//nottingham.ac.uk"><img src="img/sponsors/uon.png" style="width: 250px;"  /></a>
+        <a href="//nottingham.ac.uk"><img class="small" src="img/sponsors/uon.png"  /></a>
       </div>
 
       <div class="<?php echo $classes; ?>">
@@ -50,19 +50,19 @@
         </a>
       </div>
       <div class="<?php echo $classes; ?>">
-        <a href="//bcs.org/bcswomen"><img src="img/sponsors/bcs-women.jpg" style="width: 300px;"/></a>
+        <a href="//bcs.org/bcswomen"><img src="img/sponsors/bcs-women.jpg" /></a>
       </div>
       <div class="<?php echo $classes; ?>">
-        <a href="//www.codeclub.org.uk/"><img src="img/sponsors/code-club.png" style="width: 200px;"/></a>
+        <a href="//www.codeclub.org.uk/"><img src="img/sponsors/code-club.png" /></a>
+      </div>
+      <div class="<?php echo $classes; ?>">
+        <a href="//gov.uk/dstl"><img src="img/sponsors/dstl.jpeg" /></a>
+      </div>
+      <div class="<?php echo $classes; ?>">
+        <a href="//nottinghack.org.uk/"><img src="img/sponsors/hackspace.png"  /></a>
       </div>
       <div class="<?php echo $classes; ?>">
         <a href="//www.su.nottingham.ac.uk/societies/society/CivilEngineering/"><img src="img/sponsors/civsoc.png" style="width: 150px;" /></a>
-      </div>
-      <div class="<?php echo $classes; ?>">
-        <a href="//gov.uk/dstl"><img src="img/sponsors/dstl.jpeg"  style="width: 200px;"  /></a>
-      </div>
-      <div class="<?php echo $classes; ?>">
-        <a href="//nottinghack.org.uk/"><img src="img/sponsors/hackspace.png" style="width: 200px;" /></a>
       </div>
       <div class="<?php echo $classes; ?>">
         <a href="//www.su.nottingham.ac.uk/societies/society/PublicSpeaking/"><img src="img/sponsors/public-speaking.png" /></a>
