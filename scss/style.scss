@@ -490,6 +490,9 @@ section {
   padding: 60px 0;
 
   .row {
+    margin-left: 0;
+    margin-right: 0;
+
     h2 {
       margin: 0;
       font-size: 3em;
@@ -510,8 +513,9 @@ section.success {
   padding-bottom: 20px;
   padding-top: 30px;
   text-align: center;
+
   img {
-	height: 160px;
+	 height: 160px;
   }
 }
 
@@ -613,6 +617,11 @@ section.success {
   .feature-sponsor {
     height: 100%;
     width: 100%;
+
+    a img {
+      height: 100%;
+      width: 100%;
+    }
   }
 }
 

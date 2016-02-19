@@ -61,25 +61,29 @@
 
 <body id="page-top" class="index">
 
-  <?php include 'templates/navbar.php';?>
+  <?php
 
-  <?php include 'templates/cover.php';?>
+  include 'templates/navbar.php';
 
-  <?php include 'templates/speakers.php';?>
+  include 'templates/cover.php';
 
-  <?php include 'templates/workshops.php';?>
+  include 'templates/speakers.php';
 
-  <?php include 'templates/about.php';?>
+  include 'templates/workshops.php';
 
-  <?php include 'templates/schedule.php';?>
+  include 'templates/about.php';
 
-  <?php include 'templates/register.php';?>
+  include 'templates/schedule.php';
 
-  <?php include 'templates/faq.php';?>
+  include 'templates/register.php';
 
-  <?php include 'templates/sponsors.php'; ?>
+  include 'templates/faq.php';
 
-  <?php include 'templates/footer.php';?>
+  include 'templates/sponsors.php';
+
+  include 'templates/footer.php';
+
+  ?>
 
   <script src="main.min.js"></script>
 
