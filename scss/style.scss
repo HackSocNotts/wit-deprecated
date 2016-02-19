@@ -515,6 +515,7 @@ section.success {
   }
 }
 
+
 #map {
     width: 100%;
   height: 450px;
@@ -607,6 +608,11 @@ section.success {
 @media (max-width: 769px) {
   .sponsor-img {
     margin: 0;
+  }
+
+  .feature-sponsor {
+    height: 100%;
+    width: 100%;
   }
 }
 
