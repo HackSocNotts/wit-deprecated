@@ -21,7 +21,7 @@ In order to set up the dependencies, you will need to run `bundle install`. This
 
 Changes *must* be sent to staging first, to be checked before being put live. This can be done by running `bundle exec cap staging deploy`, and can be found at [`staging.inspirewit.com`](staging.inspirewit.com).
 
-Once confirmed that the changes are good, they can be sent live via `bundle exec cap production deploy`, and can be found at [`current.inspirewit.com`](current.inspirewit.com).
+Once confirmed that the changes are good, they can be sent live via `bundle exec cap production deploy`, and can be found at [`inspirewit.com`](inspirewit.com).
 
 *NOTE*: In order to push to the server, you will need to be given SSH access via @jamietanna.
 
