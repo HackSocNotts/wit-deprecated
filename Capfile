@@ -33,5 +33,5 @@ Dir.glob('lib/capistrano/tasks/*.rake').each { |r| import r }
 set :stages, ["staging", "production"]
 set :default_stage, "staging"
 
-set :host, '178.62.92.107'
+set :host, 'inspirewit.com'
 set :user, 'inspirewit_com'
