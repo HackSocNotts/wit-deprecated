@@ -26,11 +26,7 @@ Once confirmed that the changes are good, they can be sent live via `bundle exec
 *NOTE*: In order to push to the server, you will need to be given SSH access via @jamietanna.
 
 ## TODO
-- [x] Move to GruntJS
-- [x] Add grunt task running server side
-- [x] Fix mobile dropdown menu
-- [ ] Tidy up .scss files
+- [ ] Tidy up SCSS
 - [ ] Add [Bourbon.io](http://bourbon.io/) to ensure cross browser support
 - [ ] Move from PHP to static html
-- [x] Remove Carousel
-- [ ] Add promotional photos from last year, found on [HackSoc 2014/15 drive](https://drive.google.com/open?id=0B0BMWwh-HrjhOG9SbGJhRTY3X1k)
+- [ ] Add promotional photos from last year
