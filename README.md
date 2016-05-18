@@ -30,3 +30,7 @@ Once confirmed that the changes are good, they can be sent live via `bundle exec
 - [ ] Add [Bourbon.io](http://bourbon.io/) to ensure cross browser support
 - [ ] Move from PHP to static html
 - [ ] Add promotional photos from last year
+
+## LICENSE
+
+InspireWiT is released under the [GNU General Public License V3](LICENSE.md).
