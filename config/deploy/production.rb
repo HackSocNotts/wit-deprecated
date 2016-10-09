@@ -8,7 +8,7 @@
 # server 'db.example.com', user: 'deploy', roles: %w{db}
 
 server (fetch :host), user: (fetch :user), roles: %w{app}
-set :deploy_to, '/home/inspirewit_com/inspirewit.com/production'
+set :deploy_to, '/srv/www/inspirewit.com/inspirewit.com/production'
 
 # role-based syntax
 # ==================
