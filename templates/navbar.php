@@ -15,9 +15,10 @@
         <li class="hidden">
           <a href="#page-top"></a>
         </li>
-        <li>
+        <!--<li>
           <a class="page-scroll" href="#register">Register</a>
-        </li>
+				</li>
+				-->
         <li>
           <a class="page-scroll" href="#faq">Faq</a>
         </li>
