@@ -16,11 +16,12 @@
           <div class="location-tag"><span class="tag">University of Nottingham</span></div>
         </div>
         <div class="intro-tags">
-          <span class="tag">20</span>/
+          <span class="tag">18</span>/
           <span class="tag">02</span>/
-          <span class="tag">2016</span>
-        </div>
-        <a class="btn btn-register" href="#register">Register</a>
+          <span class="tag">2017</span>
+				</div>
+				<a class="intro-tags">Check back soon for more details!</a>
+        <!--<a class="btn btn-register" href="#register">Register</a>-->
       </div>
     </div>
   </div>
