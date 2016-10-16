@@ -20,7 +20,7 @@
           <span class="tag">02</span>/
           <span class="tag">2017</span>
 				</div>
-				<div class="location-tag"><span class="tag">Check back soon for more details!!</span></div>
+				<div class="location-tag"><span class="tag" style="color:#FFED00">Check back soon for more details!!</span></div>
         <!--<a class="btn btn-register" href="#register">Register</a>-->
       </div>
     </div>
