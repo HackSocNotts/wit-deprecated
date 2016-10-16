@@ -67,19 +67,19 @@
 
   include 'templates/cover.php';
 
-  include 'templates/speakers.php';
+  //include 'templates/speakers.php';
 
-  include 'templates/workshops.php';
+  //include 'templates/workshops.php';
 
   include 'templates/about.php';
 
-  include 'templates/schedule.php';
+  //include 'templates/schedule.php';
 
-  include 'templates/register.php';
+  //include 'templates/register.php';
 
   include 'templates/faq.php';
 
-  include 'templates/sponsors.php';
+  //include 'templates/sponsors.php';
 
   include 'templates/footer.php';
 
