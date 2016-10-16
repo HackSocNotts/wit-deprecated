@@ -9,6 +9,7 @@
 
 server (fetch :host), user: (fetch :user), roles: %w{app}
 set :deploy_to, '/srv/www/inspirewit.com/inspirewit.com/staging'
+set :branch, 'staging'
 
 # role-based syntax
 # ==================
