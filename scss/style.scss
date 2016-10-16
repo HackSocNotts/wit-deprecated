@@ -407,9 +407,10 @@ header .btn-register:hover {
 //
 // Footer
 //
+// background: $brand-primary;
 
 footer {
-  background: $brand-primary;
+  background-image: url('../img/bg_back_geo.png');
   .container {
     padding: 120px 0 20px;
     color: #fff;
