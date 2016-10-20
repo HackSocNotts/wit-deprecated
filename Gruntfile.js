@@ -90,6 +90,14 @@ module.exports = function (grunt) {
         files: ['js/*.js'],
         tasks: ['concat', 'uglify']
       }
+	  },
+
+    connect: {
+      server: {
+        options: {
+          port: process.env.SERVER_PORT || 9000
+        }
+      }
     }
   });
 
@@ -101,9 +109,17 @@ module.exports = function (grunt) {
   grunt.loadNpmTasks('grunt-contrib-uglify'); // Minify JS
   grunt.loadNpmTasks('grunt-contrib-sass'); // Process Sass files
   grunt.loadNpmTasks('grunt-contrib-watch'); // On file update, do task
+  grunt.loadNpmTasks('grunt-contrib-connect'); // Local server
 
   grunt.registerTask('default', [
 	'concatHTML', 'htmlmin',
     'concat', 'uglify', 'sass'
   ]);
+
+  grunt.registerTask('serve', ['connect:server', 'watch']);
+
+  var heroku_grunt_tasks = 'concatHTML htmlmin concat uglify sass';
+
+  grunt.registerTask('heroku:development', heroku_grunt_tasks);
+
 };

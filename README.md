@@ -12,6 +12,9 @@ Hosted at http://www.inspirewit.com/
 - In the project root directory, run `npm install`
 - Running `grunt` will build the site
 - Running `grunt watch` will detect any changes locally and rebuild the site
+- To test the site locally, run `grunt serve`. This will build the site, serve it at `http://localhost:9000/index.html` and run a `grunt watch` alongside
+    - Alternatively, you can specify the port to ie, 3000 by running `env SERVER_PORT=3000 grunt serve` 
+- Build the site first by running `grunt` then run `grunt watch` or `grunt serve`
 
 ## Deploying changes
 
@@ -28,7 +31,7 @@ Once confirmed that the changes are good, they can be sent live via `bundle exec
 ## TODO
 - [ ] Tidy up SCSS
 - [ ] Add [Bourbon.io](http://bourbon.io/) to ensure cross browser support
-- [ ] Move from PHP to static html
+- [x] Move from PHP to static html
 - [ ] Add promotional photos from last year
 
 ## LICENSE
