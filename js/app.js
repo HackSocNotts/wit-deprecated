@@ -14,6 +14,16 @@ window.setInterval(function() {
   }
 }, 3000);
 
+// Function to display a random quote in the footer
+var quotes = [["Keep your eyes on the stars, and your feet on the ground.","Theodore Roosevelt"],
+        ["Don't tell me the sky is the limit when there are footprints on the moon!","Paul Brandt"],
+		["I've always been more interested in the future than in the past.","Grace Hopper"],
+		["Act as if what you do makes a difference. It does.","William James"]];
+
+function random_quote(){
+	var i = Math.floor(Math.random() * quotes.length);
+	$("#quote").html("<h3>&ldquo;" + quotes[i][0] + "&rdquo;</h3><p>&mdash;" + quotes[i][1] + "</p>");
+}
 
 /**
  * GA Script. For 2016.inspirewit.com

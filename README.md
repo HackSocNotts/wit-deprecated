@@ -8,13 +8,10 @@ Hosted at http://www.inspirewit.com/
 
 ## How to Build
 
-- Install a web server with PHP support
-- Clone the repository into your web server root directory, i.e. `/var/www/wit`
-- Install `grunt` globally, by running `sudo npm -g install grunt-cli`
-- Install all dependencies by running `npm install`
-- Run `grunt watch` to watch folders so that SCSS compiles to CSS & JS combines, or just run `grunt` to build all.
-- Browse to the web server, i.e. `http://localhost:80/wit/index.html`
-
+- If you don't have Grunt, install it globally by running `sudo npm -g install grunt-cli` 
+- In the project root directory, run `npm install`
+- Running `grunt` will build the site
+- Running `grunt watch` will detect any changes locally and rebuild the site
 
 ## Deploying changes
 

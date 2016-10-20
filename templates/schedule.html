@@ -70,20 +70,10 @@
       </div>
       <div class="col-lg-4 col-lg-offset-1">
         <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDBmbxXmi_WiX322tfOyGRaa3hw4vGDS7A"></script>
-        <?php
-          /**
-           * PHP function to see if user is on a mobile
-           * @return boolean True if user is on a mobile, false if not.
-           */
-          function isMobile() {
-            return preg_match("/(android|avantgo|blackberry|bolt|boost|cricket|docomo|fone|hiptop|mini|mobi|palm|phone|pie|tablet|up\.browser|up\.link|webos|wos)/i", $_SERVER["HTTP_USER_AGENT"]);
-          }
-        ?>
-        <script>
+                <script>
         function initialize() {
           var mapOptions = {center: { lat: 52.951659, lng: -1.186477}, zoom: 15,
-           <?php echo(isMobile()) ? 'draggable: false,' : ''; ?>
-          panControl: false, zoomControl: true, mapTypeControl: true, scaleControl: false, streetViewControl: false, overviewMapControl: false,
+                     panControl: false, zoomControl: true, mapTypeControl: true, scaleControl: false, streetViewControl: false, overviewMapControl: false,
           styles: [{"featureType":"water","stylers":[{"visibility":"on"},{"color":"#acbcc9"}]},{"featureType":"landscape","stylers":[{"color":"#f2e5d4"}]},{"featureType":"road.highway","elementType":"geometry","stylers":[{"color":"#c5c6c6"}]},{"featureType":"road.arterial","elementType":"geometry","stylers":[{"color":"#e4d7c6"}]},{"featureType":"road.local","elementType":"geometry","stylers":[{"color":"#fbfaf7"}]},{"featureType":"poi.park","elementType":"geometry","stylers":[{"color":"#c5dac6"}]},{"featureType":"administrative","stylers":[{"visibility":"on"},{"lightness":33}]},{"featureType":"road"},{"featureType":"poi.park","elementType":"labels","stylers":[{"visibility":"on"},{"lightness":20}]},{},{"featureType":"road","stylers":[{"lightness":20}]}]
         };
         var map = new google.maps.Map(document.getElementById('map'),mapOptions);
@@ -109,4 +99,3 @@
 </div>
 
 </section>
-
