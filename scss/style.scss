@@ -234,11 +234,10 @@ hr.star-primary {
 //
 // Cover
 //
+
 .bg {
-  background-image: url('../img/bg_back_geo.png');
-  background-size: cover;
-  position: relative;
   width: 100%;
+  background: tomato;
 }
 
 .bg > .overlay {
@@ -254,6 +253,27 @@ header {
 	text-align: center;
 	background: $brand-success;
 	color: white;
+  position: relative;
+  .content {
+    background: HSL(208, 46, 53);
+    min-height: 75vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .content, .content .inner {
+    z-index: 10;
+  }
+
+  canvas {
+    height: 100% !important;
+    width: 100% !important;
+    position: absolute;
+    top: 0;
+    left: 0;
+
+  }
 
 	.container {
 		padding-top: 100px;
@@ -298,7 +318,7 @@ header {
   .tag {
     background: rgba(255, 255, 255, 0.08);
     border-radius: 5px;
-    color: rgba(255,255,255,0.65);
+    color: rgba(255,255,255,1);
     display: inline-block;
     font-size: 18px;
     line-height: 100%;
