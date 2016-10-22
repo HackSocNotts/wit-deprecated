@@ -45,3 +45,38 @@ $(function() {
     }
   });
 });
+
+
+/**
+ * Interactive cover section 
+ */
+
+var canvas = document.getElementById("canvas");
+var altBG = document.getElementById("altBG");
+var triangle = new TriangleBG({
+  canvas : canvas,
+  alternateElem : altBG,
+  cellHeight : 80,
+  cellWidth : 100,
+  mouseLight : true,
+  mouseLightRadius : 500,
+  mouseLightIncrement : 5,
+  resizeAdjustment : true,
+  variance : 1,
+  pattern : "x*y",
+  baseColor1 : {
+    baseHue : 208,
+    baseSaturation : 46,
+    baseLightness : 53
+  }, 
+  baseColor2 : {
+    baseHue : 243,
+    baseSaturation : 29,
+    baseLightness : 50
+  },
+  colorDelta : {
+    hue : 0,
+    lightness : 0,
+    saturation : 0
+  }
+});
