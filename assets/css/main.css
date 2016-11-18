@@ -1425,9 +1425,65 @@
 		margin-bottom: 1em;
 	}
 
+	#nav {
+		background: black;
+		position: fixed;
+		width: 100%;
+		top: 0;
+		left: 0;
+		overflow: auto;
+		display: flex;
+		-webkit-flex-direction: row;
+		-moz-flex-direction: row;
+		-ms-flex-direction: row;
+		-o-flex-direction: row;
+		flex-direction: row;
+		justify-content: space-between;
+		padding: 0.5em;
+		z-index: 100;
+	}
+
+		#nav a {
+			text-decoration: none;
+			border: none;
+			display: block;
+		}
+
+		#nav > a {
+			display: inherit;
+		}
+
+		#nav img {
+			height: 3rem;
+		}
+
+		#nav ul {
+			display: -webkit-flex;
+			display: -moz-flex;
+			display: -ms-flex;
+			display: -o-flex;
+			display: flex;
+			align-items: center;
+			margin-right: 0.5em;
+		}
+
+		#nav li {
+			display: inline;
+			margin-left: 1rem;
+		}
+
+			#nav li a {
+				display: inline;
+				color: white;
+			}
+
 	header {
 		margin-bottom: 1em;
 	}
+
+		header img {
+			width: 50%;
+		}
 
 		header p {
 			display: block;
@@ -1933,6 +1989,8 @@
 		margin: 0;
 		padding: 14em 0 14em 0;
 		cursor: default;
+		background: url("../../images/geo-back.png");
+		background-size: cover;
 	}
 
 		#header header {
@@ -2001,7 +2059,7 @@
 		color: #fff;
 		text-shadow: 0 0 0.5px rgba(255, 255, 255, 0.25);
 		text-align: center;
-		background: #35b88f url("images/banner.svg") bottom center no-repeat;
+		/*background: #35b88f url("images/geo-back.png") bottom center no-repeat;*/
 		padding: 5em 0 5em 0;
 		margin: 0;
 		background-size: 125% auto;
@@ -2308,6 +2366,12 @@
 					padding: 2.5em 2em 2.5em 2em;
 				}
 
+		/* Header */
+
+			#header img {
+				width: 100%;
+			}
+
 		/* Banner */
 
 			#banner {
@@ -2318,6 +2382,7 @@
 				#banner br {
 					display: none;
 				}
+
 
 	}
 
