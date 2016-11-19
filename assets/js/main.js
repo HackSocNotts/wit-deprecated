@@ -157,6 +157,26 @@
 				usePopupNav: true
 			});
 
+			var inspiredCounter = 0;
+
+			var inspiring = [
+				"Women",
+				"Men",
+				"Students",
+				"Everyone"
+			];
+
+			function changeInspired() {
+				var el = $("header .inspired");
+				inspiredCounter++;
+				if(inspiredCounter == inspiring.length) {
+					inspiredCounter = inspiring.length;
+				}
+				el.html(inspiring[inspiredCounter]);
+			}
+
+			setInterval(changeInspired, 5000);
+
 	});
 
 })(jQuery);
