@@ -1309,7 +1309,7 @@
 /* Basic */
 
 	body {
-		background-color: #183026;
+		background-color: #5280BA;
 		background-image: url("images/overlay.png"), url("../../images/bg.jpg");
 		background-repeat: repeat, no-repeat;
 		background-size: auto, cover;
@@ -1387,7 +1387,7 @@
 		-webkit-transition: border-color 0.35s ease-in-out, color 0.35s ease-in-out;
 		-ms-transition: border-color 0.35s ease-in-out, color 0.35s ease-in-out;
 		transition: border-color 0.35s ease-in-out, color 0.35s ease-in-out;
-		color: #35b88f;
+		color: #5280BA;
 		text-shadow: 0 0 0.5px rgba(53, 184, 143, 0.25);
 		text-decoration: none;
 		border-bottom: dotted 1px rgba(53, 184, 143, 0.5);
@@ -1496,7 +1496,6 @@
 		    border: none;
 		    border-bottom: solid 5px;
 		    text-align: center;
-		    max-width: 250px;
 		    margin: 0 auto;
 		    padding-bottom: 0.5em;
 		}
@@ -1762,7 +1761,7 @@
 		position: relative;
 		display: inline-block;
 		border: 0;
-		background: #35b88f;
+		background: #5280BA;
 		color: #fff;
 		text-shadow: 0 0 0.5px rgba(255, 255, 255, 0.25);
 		cursor: pointer;
@@ -1848,7 +1847,6 @@
 			top: -4.5em;
 			margin-left: -45px;
 			margin-top: -33px;
-			background: url("images/arrow.svg") no-repeat;
 		}
 
 		.box :last-child {
@@ -2059,7 +2057,6 @@
 				bottom: -4.5em;
 				margin-left: -45px;
 				margin-bottom: -33px;
-				background: url("images/arrow.svg") no-repeat;
 			}
 
 /* Banner */
@@ -2076,7 +2073,7 @@
 	}
 
 		#banner .button {
-			color: #35b882;
+			color: #5280BA;
 			text-shadow: 0 0 0.5px rgba(53, 184, 130, 0.25);
 		}
 
@@ -2136,7 +2133,7 @@
 		}
 
 			#footer a:hover {
-				color: #35b88f;
+				color: #5280BA;
 				text-shadow: 0 0 0.5px rgba(69, 200, 159, 0.25);
 				border-bottom-color: rgba(53, 184, 143, 0.5);
 			}
@@ -2289,6 +2286,19 @@
 				opacity: 1.0;
 			}
 
+/* FAQ */
+
+	#faq li {
+		list-style: none;
+	}
+
+	#faq li b {
+		font-weight: bold;
+		margin-bottom: 0.5em;
+		font-size: 1.25em;
+		display: block;
+	}
+
 /* Wide */
 
 	@media screen and (max-width: 1680px) {
@@ -2321,7 +2331,7 @@
 		/* Basic */
 
 			body {
-				background-color: #203936;
+				background-color: #5280BA;
 				background-image: url("images/overlay.png"), url("../../images/bg-alt.jpg");
 				background-repeat: repeat, no-repeat;
 				background-size: auto, 100% auto;
