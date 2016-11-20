@@ -177,6 +177,10 @@
 
 			setInterval(changeInspired, 5000);
 
+			if(document.location.hash == "#thanks") {
+				$("#header a[href='#reg']").html("Thanks for getting in touch!");
+			}
+
 	});
 
 })(jQuery);

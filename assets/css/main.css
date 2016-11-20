@@ -1310,11 +1310,6 @@
 
 	body {
 		background-color: #5280BA;
-		background-image: url("images/overlay.png"), url("../../images/bg.jpg");
-		background-repeat: repeat, no-repeat;
-		background-size: auto, cover;
-		background-position: top left, center 0;
-		background-attachment: fixed, fixed;
 		font-family: 'Lato', sans-serif;
 		font-size: 18pt;
 		line-height: 1.75em;
@@ -1778,7 +1773,7 @@
 		input[type="reset"]:hover,
 		button:hover,
 		.button:hover {
-			background: #45c89f;
+			background: #715EA6;
 		}
 
 		input[type="button"].style2,
@@ -2091,6 +2086,7 @@
 			margin: 0 0 1em 0;
 			text-align: left;
 			font-size: 1rem;
+			text-align: center;
 		}
 
 		#banner footer {
@@ -2133,7 +2129,7 @@
 		}
 
 			#footer a:hover {
-				color: #5280BA;
+				color: lightgrey;
 				text-shadow: 0 0 0.5px rgba(69, 200, 159, 0.25);
 				border-bottom-color: rgba(53, 184, 143, 0.5);
 			}
@@ -2288,8 +2284,13 @@
 
 /* FAQ */
 
+	#faq ul {
+		margin-top: 2em;
+	}
+
 	#faq li {
 		list-style: none;
+		margin-top: 1em;
 	}
 
 	#faq li b {

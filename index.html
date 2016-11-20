@@ -36,7 +36,7 @@
 					<p>Women inspiring <span class="inspired">women</span></p>
 				</header>
 				<footer>
-					<a href="#banner" class="button style2 scrolly-middle">A gender inclusive event for EVERYONE</a>
+					<a href="#reg" class="button style2 scrolly-middle">Add me to the #WIT17 interest list</a>
 				</footer>
 			</section>
 
@@ -125,8 +125,8 @@
 			<article class="container box style2">
 				<header>
 					<h2>Our Partners</h2>
-					<p> Every year the Women in Technology event at the University of Nottingham is supported by a range of industry partners.<br /> 
-					If you are interested in becoming an event partner, contact us here.</p>
+					<p> Every year the Women in Technology event at the University of Nottingham is supported by a range of industry partners.</p><p>
+					If you are interested in becoming an event partner, <a href="mailto:info-wit@hacksocnotts.co.uk">contact us here</a>.</p>
 				</header>
 				<div class="inner gallery">
 					<div class="row 0%">
@@ -150,18 +150,25 @@
 					<h2>Contact Us</h2>
 					<p>Have a question or want to get involved with our next event? Send us a message!</p>
 				</header>
-				<form method="post" action="#">
+				<form method="post" action="https://formspree.io/kvn@lws.io">
 					<div class="row 50%">
-						<div class="6u 12u$(mobile)"><input type="text" class="text" name="name" placeholder="Name" /></div>
-						<div class="6u$ 12u$(mobile)"><input type="text" class="text" name="email" placeholder="Email" /></div>
+						<div class="6u 12u$(mobile)">
+							<input type="text" class="text" name="name" placeholder="Name" />
+						</div>
+						<div class="6u$ 12u$(mobile)">
+							<input type="email" class="text" name="_replyto" placeholder="Email" />
+						</div>
 						<div class="12u$">
 							<textarea name="message" placeholder="Message"></textarea>
 						</div>
-					<div class="12u$">
-						<ul class="actions">
-							<li><input type="submit" value="Send Message" /></li>
-						</ul>
-					</div>
+						<input type="hidden" name="_subject" value="WiT Site Form Submission!" />
+						<input type="text" name="_gotcha" style="display:none" />
+						<input type="hidden" name="_next" value="http://localhost:1337#thanks" />
+						<div class="12u$">
+							<ul class="actions">
+								<li><input type="submit" value="Send Message" /></li>
+							</ul>
+						</div>
 				</div>
 			</form>
 		</article>
@@ -214,7 +221,7 @@
 			<header>
 				<h3>FAQ - some commonly asked questions about the Women in Technology event</h3>
 			</header>
-			<ul class="default">
+			<ul>
 				<li>
 					<b>Where does the Women In Technology event take place?</b>
 					<p>It will be held at the University of Nottingham's Jubilee Campus. It will be based in the Business School South building.</p>
@@ -232,7 +239,7 @@
 				
 				<li>
 					<b>Is there a code of conduct?</b>
-					<p>Yes. We are dedicated to providing a fun, harassment-free experience for everyone. We expect all of our attendees, sponsors, volunteers, and staff to be respectful and considerate of others. It is expected that everyone involved in our event will follow this <a href="http://confcodeofconduct.com/">code of conduct.</a></p>
+					<p>Yes. We are dedicated to providing a fun, harassment-free experience for everyone. We expect all of our attendees, sponsors, volunteers, and staff to be respectful and considerate of others. It is expected that everyone involved in our event will follow this <a href="http://confcodeofconduct.com/" target="_blank">code of conduct.</a></p>
 				</li>
 
 				<li>
@@ -307,19 +314,24 @@
 				<h2>Register</h2>
 			</header>
 			<p>Tickets for #WIT17 will be available very soon! If you would like to receive updates about the next women in technology event please join our interest list. 
-			<form method="post" action="#">
+			<form method="post" action="//redroxprojects.us5.list-manage.com/subscribe/post?u=59e0b168dc72e07f6fe47aa04&amp;id=e4e6187a64" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
 				<div class="row">
 					<div class="6u">
-						<input class="text" type="text" name="name" id="name" value="" placeholder="Your Name" />
+						<input class="text" type="text" name="FNAME" id="mce-FNAME" value="" placeholder="Your Name" />
 					</div>
 					<div class="6u">
-						<input class="text" type="text" name="email" id="email" value="" placeholder="Your Email" />
+						<input class="text" type="text" name="EMAIL" id="cme-EMAIL" value="" placeholder="Your Email" />
 					</div>
 				</div>
+				<div id="mce-responses" class="clear" style="position: absolute; top:0; left: 0; pointer-events: none;">
+					<div class="response" id="mce-error-response" style="display:none"></div>
+					<div class="response" id="mce-success-response" style="display:none"></div>
+				</div>
+				<!-- <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_59e0b168dc72e07f6fe47aa04_e4e6187a64" tabindex="-1" value=""></div> -->
 				<div class="row">
 					<div class="12u">
 						<ul class="actions">
-							<li><input type="submit" value="Add me to the #WIT17 interest list" /></li>
+							<li><input type="submit" value="Add me to the #WIT17 interest list" id="mc-embedded-subscribe" /></li>
 						</ul>
 					</div>
 				</div>
