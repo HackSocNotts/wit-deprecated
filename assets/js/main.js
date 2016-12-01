@@ -157,25 +157,6 @@
 				usePopupNav: true
 			});
 
-			var inspiredCounter = 0;
-
-			var inspiring = [
-				"Women",
-				"Men",
-				"Students",
-				"Everyone"
-			];
-
-			function changeInspired() {
-				var el = $("header .inspired");
-				inspiredCounter++;
-				if(inspiredCounter == inspiring.length) {
-					inspiredCounter = inspiring.length;
-				}
-				el.html(inspiring[inspiredCounter]);
-			}
-
-			setInterval(changeInspired, 5000);
 
 			if(document.location.hash == "#thanks") {
 				$("#header a[href='#reg']").html("Thanks for getting in touch!");
