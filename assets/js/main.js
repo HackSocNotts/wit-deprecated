@@ -157,7 +157,6 @@
 				usePopupNav: true
 			});
 
-
 			if(document.location.hash == "#thanks") {
 				$("#header a[href='#reg']").html("Thanks for getting in touch!");
 			}
