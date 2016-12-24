@@ -36,4 +36,4 @@ Once confirmed that the changes are good, they can be sent live via `bundle exec
 
 ## LICENSE
 
-InspireWiT is released under the [GNU General Public License V3](LICENSE.md).
+InspireWiT is released under the [GNU Affero General Public License V3](LICENSE).
