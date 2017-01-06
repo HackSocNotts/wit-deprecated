@@ -1473,7 +1473,7 @@
 			}
 
 	header {
-		margin-bottom: 1em;
+		margin-bottom: 0.75em;
 	}
 
 		header img {
@@ -1818,7 +1818,7 @@
 
 	.box {
 		position: relative;
-		margin-top: 9em;
+		margin-top: 5em;
 		margin-bottom: 0;
 	}
 
@@ -1826,9 +1826,9 @@
 			content: '';
 			display: block;
 			position: absolute;
-			top: -9em;
+			top: -5em;
 			left: 50%;
-			height: 9em;
+			height: 5em;
 			border-left: solid 1px #fff;
 		}
 
@@ -2059,7 +2059,7 @@
 	#banner {
 		position: relative;
 		color: #fff;
-		text-shadow: 0 0 0.5px rgba(255, 255, 255, 0.25);
+		/* text-shadow: 0 0 0.5px rgba(255, 255, 255, 0.25); */
 		text-align: center;
 		padding: 5em 0 5em 0;
 		margin: 0;
@@ -2085,7 +2085,7 @@
 		#banner p {
 			margin: 0 0 1em 0;
 			text-align: left;
-			font-size: 1rem;
+			font-size: 1.25rem;
 			text-align: center;
 		}
 
@@ -2377,7 +2377,7 @@
 					}
 
 				.box.style2 header {
-					padding: 2em;
+					padding: 0em;
 				}
 
 				.box.style2 .inner {
