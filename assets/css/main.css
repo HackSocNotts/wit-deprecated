@@ -2386,6 +2386,10 @@
 				padding: 0 0 0.5em 0;
 			}
 
+			#nav li.not-mob {
+				display: none;
+			}
+
 		/* Box */
 
 			.box {
@@ -2447,8 +2451,8 @@
 			#speakers li {
 				width: 33.334%;
 				float: left;
-				padding-left: 1em;
-				padding-right: 1em;
+				padding-left: 0.5em;
+				padding-right: 0.5em;
 			}
 
 			#speakers li img {
@@ -2475,6 +2479,13 @@
 /* Mobile */
 
 	@media screen and (max-width: 736px) {
+
+		#speakers li {
+			width: 50%;
+			float: left;
+			padding-left: 0.5em;
+			padding-right: 0.5em;
+		}
 
 		/* Basic */
 
