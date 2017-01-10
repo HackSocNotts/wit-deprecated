@@ -2300,6 +2300,38 @@
 		display: block;
 	}
 
+/* Speakers */
+
+#speakers li {
+	overflow: auto;
+	margin-top: 2em;
+}
+
+#speakers li img {
+	width: 20%;
+	float: left;
+	display: block;
+}
+
+#speakers li .info {
+	width: 80%;
+	float: left;
+	display: block;
+	padding-left: 1.5em;
+}
+
+#speakers li .info .name {
+	font-size: 1.5em;
+	font-family: 'caviar', sans-serif;
+	text-transform: uppercase;
+	margin-bottom: 0.5rem;
+}
+
+#speakers li .info .bio {
+	font-size: 1rem;
+	line-height: 1.5;
+}
+
 /* Wide */
 
 	@media screen and (max-width: 1680px) {
@@ -2354,6 +2386,10 @@
 				padding: 0 0 0.5em 0;
 			}
 
+			#nav li.not-mob {
+				display: none;
+			}
+
 		/* Box */
 
 			.box {
@@ -2405,13 +2441,51 @@
 				#banner br {
 					display: none;
 				}
+		
+		/* Mobile */
 
+			#speakers {
+				overflow: auto;
+			}
+
+			#speakers li {
+				width: 33.334%;
+				float: left;
+				padding-left: 0.5em;
+				padding-right: 0.5em;
+			}
+
+			#speakers li img {
+				width: 100%;
+			}
+
+			#speakers li .info {
+				width: 100%;
+				padding-left: 0;
+				text-align: center;
+			}
+
+			#speakers li .info .name {
+				font-size: 1rem;
+				margin-top: 1rem;
+			}
+
+			#speakers li .bio {
+				display: none;
+			}
 
 	}
 
 /* Mobile */
 
 	@media screen and (max-width: 736px) {
+
+		#speakers li {
+			width: 50%;
+			float: left;
+			padding-left: 0.5em;
+			padding-right: 0.5em;
+		}
 
 		/* Basic */
 
