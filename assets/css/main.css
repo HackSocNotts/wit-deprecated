@@ -2332,6 +2332,90 @@
 	line-height: 1.5;
 }
 
+#schedule header h3 {
+	display: block;
+	width: 100%;
+}
+
+#panel.panel {
+	width: 100%;
+}
+
+#panel.panel header h3 {
+	margin-top: 2em;
+}
+
+#panel.panel header p {
+	display: none;
+}
+
+#panel.panel {
+	margin-bottom: 2em;
+	display: block;
+	overflow: auto;
+}
+
+#panel.panel li {
+	width: 20%;
+	float: left;
+	display: block;
+	margin-top: 1em;
+}
+
+#panel.panel li img {
+	width: 100%;
+	padding-left: 0.5em;
+	padding-right: 0.5em
+}
+
+#panel.panel li .info {
+	padding-left: 0;
+	margin-left: 0;
+	width: 100%;
+}
+
+#panel.panel li .info .name {
+	font-size: 0.8em;
+	text-align: center;
+	display: block;
+	word-spacing: 10em;
+	line-height: 1.5em;
+	margin-top: 0.5em;
+	margin-bottom: 0;
+}
+
+#panel.panel li .info .company {
+	display: block;
+	width: 100%;
+	text-align: center;
+	font-size: 0.7em;
+	margin-top: -0.25em;
+}
+
+#panel.panel li .bio {
+	display: none;
+}
+
+#panel.panel li:first-child img {
+	padding-left: 0;
+	padding-right: 1em;
+}
+
+#panel.panel li:first-child .name,
+#panel.panel li:first-child .company {
+	padding-right: 1em;
+}
+
+#panel.panel li:last-child img{
+	padding-left: 1em;
+	padding-right: 0;
+}
+
+#panel.panel li:last-child .name,
+#panel.panel li:last-child .company {
+	padding-left: 1em;
+}
+
 /* Wide */
 
 	@media screen and (max-width: 1680px) {
@@ -2413,7 +2497,7 @@
 					}
 
 				.box.style2 header {
-					padding: 0em;
+					padding: 1em;
 				}
 
 				.box.style2 .inner {
@@ -2485,6 +2569,17 @@
 			float: left;
 			padding-left: 0.5em;
 			padding-right: 0.5em;
+		}
+
+		#panel.panel {
+			display: none;
+		}
+
+		#schedule header h3 {
+			float: left;
+			width: 100%;
+			margin-top: 2em;
+			margin-bottom: 1em;
 		}
 
 		/* Basic */
