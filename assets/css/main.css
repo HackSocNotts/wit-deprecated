@@ -2332,6 +2332,11 @@
 	line-height: 1.5;
 }
 
+#schedule header h3 {
+	display: block;
+	width: 100%;
+}
+
 /* Wide */
 
 	@media screen and (max-width: 1680px) {
