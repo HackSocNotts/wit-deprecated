@@ -1,8 +1,0 @@
-*.codekit
-*.scssc
-.DS_Store
-css/.sass-cache
-node_modules
-npm-debug.log
-css/
-main.min.js
